@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bomb.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Bomb.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/BombWithTimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/BombWithTimer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SphereExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SphereExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bombs/BombWithTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bombs/BombWithTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bombs/IExplosive.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bombs/IExplosive.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explosions/CrossExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explosions/CrossExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explosions/Explosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explosions/Explosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explosions/SmartSphereExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explosions/SmartSphereExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Explosions/SphereExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Explosions/SphereExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_TestBehaviours.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_TestBehaviours/CollisionDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/_TestBehaviours/CollisionDrawer.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643819707936</updated>
       <workItem from="1643819750664" duration="2544000" />
-      <workItem from="1643830187809" duration="4305000" />
+      <workItem from="1643830187809" duration="4928000" />
     </task>
     <servers />
   </component>
@@ -92,24 +77,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Explosions/SphereExplosion.cs</url>
-          <line>17</line>
-          <properties documentPath="H:\GitHub\Bombarda\Assets\Scripts\Explosions\SphereExplosion.cs" initialLine="17" containingFunctionPresentation="method 'FindAllCollidersNearby'">
-            <startOffsets>
-              <option value="445" />
-            </startOffsets>
-            <endOffsets>
-              <option value="479" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
