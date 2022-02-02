@@ -19,9 +19,9 @@ public class HealthComponent : MonoBehaviour, IDamageable, IHealable
         damagePoints = ReduceDamage(damagePoints);
 
         this.points -= damagePoints;
-        OnGetDamage.Invoke(damagePoints);
+        OnGetDamage?.Invoke(damagePoints);
         if (this.points <= 0)
-            OnZeroHealth.Invoke();
+            OnZeroHealth?.Invoke();
 
         return damagePoints;
     }

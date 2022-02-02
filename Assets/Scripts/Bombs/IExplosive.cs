@@ -1,5 +1,7 @@
+using UnityEngine;
+
 public interface IExplosive
 {
-    IExplosion Explosion { get; }
+    GameObject Explosion { get; }
     void Explode();
 }

@@ -1,15 +1,14 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CrossExplosion : Explosion
 {    
     [SerializeField] private float length;
     public float Length => length;
-    protected Collider explosionArea;
 
-    private void Awake()
+    public override List<IDamageable> FindAllDamageable()
     {
-        explosionArea = GetComponent<Collider>();
+        throw new System.NotImplementedException();        
+        // TODO Raycast - throw it in four directions
     }
-    
-    // TODO
 }

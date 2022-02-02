@@ -7,42 +7,30 @@ using UnityEngine;
 [Serializable] //TODO Do i need it?
 public abstract class Explosion : MonoBehaviour, IExplosion
 {
-    [SerializeField] private float baseDamage;
-    
+    [SerializeField] private float baseDamage = 1f;
+    [SerializeField] private float destroyDelay = 5f;
     public float BaseDamage => baseDamage;
     
     protected float damage;
 
-    private void Awake()
+    protected virtual void Init()
     {
         damage = BaseDamage;
+        Explode();
     }
 
-    private void Start()
+    private void Awake()
     {
-        Explode();
+        Init();
     }
 
     public virtual void Explode()
     {
         DamageAll();
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, destroyDelay);
     }
 
-    public virtual List<IDamageable> FindAllDamageable()
-    {
-        List<IDamageable> damageables = new List<IDamageable>();
-        //var contacts = gameObject.GetComponent<Collision>().contacts;
-        var contacts = Physics.OverlapSphere(transform.position, 5);
-        foreach (var contact in contacts)
-        {
-            var damageable = contact.gameObject.GetComponent<IDamageable>();
-            if (damageable != null)
-                damageables.Add(damageable);
-        }
-
-        return damageables;
-    }
+    public abstract List<IDamageable> FindAllDamageable();
 
     public virtual void DamageAll()
     {
