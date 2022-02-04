@@ -2,16 +2,12 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace BattleSystem.newExplosions
+public class DestroyStep : ExplosionStep
 {
-    [CreateAssetMenu(menuName = "ScriptableObjects/Steps/DestroyStep", fileName = "DestroyStep")]
-    public class DestroyStep : Step
+    [SerializeField] private float destroyAfterSeconds;
+    public override async UniTask Execute()
     {
-        [SerializeField] private float destroyAfterSeconds;
-        public override async UniTask Execute()
-        {
-            await UniTask.Delay(TimeSpan.FromSeconds(destroyAfterSeconds));
-            Destroy(ParentTransform.gameObject);
-        }
+        await UniTask.Delay(TimeSpan.FromSeconds(destroyAfterSeconds));
+        GameObject.Destroy(ParentTransform.gameObject);
     }
 }

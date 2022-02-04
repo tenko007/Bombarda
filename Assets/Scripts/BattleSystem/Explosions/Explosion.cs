@@ -9,7 +9,7 @@ namespace BattleSystem.newExplosions
     public class Explosion : SerializedScriptableObject, IExplosion
     {
         private Transform parentTransform;
-        public List<Step> steps;
+        public List<IExplosionStep> steps;
         public async UniTask Explode()
         {
             if (steps.Count == 0) return;
@@ -17,7 +17,7 @@ namespace BattleSystem.newExplosions
             {
                 step.SetParentTransform(parentTransform);
                 await step.Execute();
-                Debug.Log($"Step {step.name} completed!");
+                //Debug.Log($"ExplosionStep {step.GetType()} completed!");
             }
         }
 

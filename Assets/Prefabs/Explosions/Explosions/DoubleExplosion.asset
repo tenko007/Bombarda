@@ -15,12 +15,41 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 786810e7a1afeba43920a3a597b9b4fb, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
-  steps:
-  - {fileID: 11400000, guid: 820696dd9dc2a58439a1adcb268c56d9, type: 2}
-  - {fileID: 11400000, guid: 820696dd9dc2a58439a1adcb268c56d9, type: 2}
+    SerializationNodes:
+    - Name: steps
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|SpawnExplosion, Assembly-CSharp
+    - Name: explosion
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|SpawnExplosion, Assembly-CSharp
+    - Name: explosion
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

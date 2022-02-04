@@ -1,35 +1,32 @@
 using System.Collections.Generic;
+using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace BattleSystem.newExplosions
+public abstract class DamageStep : ExplosionStep
 {
-    public abstract class DamageStep : Step
+    [SerializeField] private int amount;
+    public int Amount => amount;
+    
+    public override async UniTask Execute() =>
+        DamageAll();
+    
+    protected abstract Collider[] FindAllCollidersNearby();
+    public virtual List<T> FindAll<T>()
     {
-        [SerializeField] private int amount;
-        public int Amount => amount;
-        
-        public override async UniTask Execute()
+        List<T> list = new List<T>();
+        foreach (var contact in FindAllCollidersNearby())
         {
-            DamageAll();
+            var component = contact.gameObject.GetComponent<T>();
+            if (component != null)
+                list.Add(component);
         }
-        protected abstract Collider[] FindAllCollidersNearby();
-        public virtual List<T> FindAll<T>()
-        {
-            List<T> list = new List<T>();
-            foreach (var contact in FindAllCollidersNearby())
-            {
-                var component = contact.gameObject.GetComponent<T>();
-                if (component != null)
-                    list.Add(component);
-            }
-            return list;
-        }
+        return list;
+    }
 
-        public virtual void DamageAll()
-        {
-            foreach (var damageable in FindAll<IDamageable>())
-                damageable.Damage(Amount);
-        }
+    public virtual void DamageAll()
+    {
+        foreach (var damageable in FindAll<IDamageable>())
+            damageable.Damage(Amount);
     }
 }

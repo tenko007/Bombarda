@@ -15,15 +15,78 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 161422, guid: 02b55b1514278964187c93c0b09a3dc4, type: 3}
+    - {fileID: 8300000, guid: 4e9bff56ee93c6f42b214141e44e763d, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
-  steps:
-  - {fileID: 11400000, guid: 0369a34b9c60b5e49bcb0b5f007091d2, type: 2}
-  - {fileID: 11400000, guid: 97ca29011f04648419229505612b2a04, type: 2}
-  - {fileID: 11400000, guid: 85159938899772f4ca4e11b6c63a0ac2, type: 2}
-  - {fileID: 11400000, guid: 8e3c918cd2eb538499bf261ecd871dc9, type: 2}
-  - {fileID: 11400000, guid: bdb8843baf235a54ea58d16b8ef07c37, type: 2}
+    SerializationNodes:
+    - Name: steps
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 1|Delay, Assembly-CSharp
+    - Name: delaySeconds
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|DeleteBaseChilds, Assembly-CSharp
+    - Name: deleteDelay
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|SpawnObject, Assembly-CSharp
+    - Name: objectToSpawn
+      Entry: 10
+      Data: 0
+    - Name: destroyAfterSeconds
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|PlaySound, Assembly-CSharp
+    - Name: sound
+      Entry: 10
+      Data: 1
+    - Name: volume
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|SphereDamage, Assembly-CSharp
+    - Name: amount
+      Entry: 3
+      Data: 10
+    - Name: radius
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
