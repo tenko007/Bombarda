@@ -77,8 +77,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseDamage: 10
   destroyDelay: 5
-  radius: 5
-  damageIncreaseCoeff: 10
+  radius: 3
+  damageIncreaseCoeffPercent: 10
 --- !u!1001 &418180689994288450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 465154, guid: 12673f4cc7f725d4082ece9c7c724b9c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261688, guid: 12673f4cc7f725d4082ece9c7c724b9c, type: 3}
+      propertyPath: m_Volume
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12673f4cc7f725d4082ece9c7c724b9c, type: 3}
