@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
+  m_Name: TimerExplosion
+  m_EditorClassIdentifier: 
+  destroyDelay: 5
+  steps:
+  - {fileID: 11400000, guid: 0369a34b9c60b5e49bcb0b5f007091d2, type: 2}
+  - {fileID: 11400000, guid: 85159938899772f4ca4e11b6c63a0ac2, type: 2}
+  - {fileID: 11400000, guid: 8e3c918cd2eb538499bf261ecd871dc9, type: 2}
+  - {fileID: 11400000, guid: bdb8843baf235a54ea58d16b8ef07c37, type: 2}
+  - {fileID: 11400000, guid: 9272429088e9258439cae818478304fc, type: 2}
