@@ -13,24 +13,24 @@ public class SphereExplosion : Explosion
         base.Init();
     }
 
+    public override List<T> FindAll<T>()
+    {
+        List<T> TList = new List<T>();
+        foreach (var contact in FindAllCollidersNearby())
+        {
+            var TComponent = contact.gameObject.GetComponent<T>();
+            if (TComponent != null)
+                TList.Add(TComponent);
+        }
+
+        return TList;
+    }
+
     protected Collider[] FindAllCollidersNearby()
     {
         if (CollidersNearbyCashed != null)
             return CollidersNearbyCashed;
         CollidersNearbyCashed = Physics.OverlapSphere(transform.position, radius);
         return CollidersNearbyCashed;
-    }
-
-    public override List<IDamageable> FindAllDamageable()
-    {
-        List<IDamageable> damageables = new List<IDamageable>();
-        foreach (var contact in FindAllCollidersNearby())
-        {
-            var damageable = contact.gameObject.GetComponent<IDamageable>();
-            if (damageable != null)
-                damageables.Add(damageable);
-        }
-
-        return damageables;
     }
 }

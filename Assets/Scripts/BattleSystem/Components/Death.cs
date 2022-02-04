@@ -13,6 +13,9 @@ namespace BattleSystem
                 _health.OnZeroHealth += Die;
         }
 
+        private void OnDestroy() =>
+            _health.OnZeroHealth -= Die;
+
         private void Die()
         {
             Destroy(this.gameObject);

@@ -6,9 +6,9 @@ public class CrossExplosion : Explosion
     [SerializeField] private float length;
     public float Length => length;
 
-    public override List<IDamageable> FindAllDamageable()
+    public override List<T> FindAll<T>()
     {
-        throw new System.NotImplementedException();        
+        throw new System.NotImplementedException();
         // TODO Raycast - throw it in four directions
     }
 }

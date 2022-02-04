@@ -1,4 +1,4 @@
 public interface IHealable
 {
-    int Heal();
+    int Heal(int healPoints);
 }

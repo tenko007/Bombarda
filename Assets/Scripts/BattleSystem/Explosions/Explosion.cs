@@ -29,12 +29,12 @@ public abstract class Explosion : MonoBehaviour, IExplosion
         DamageAll();
         Destroy(this.gameObject, destroyDelay);
     }
-
-    public abstract List<IDamageable> FindAllDamageable();
+    
+    public abstract List<T> FindAll<T>();
 
     public virtual void DamageAll()
     {
-        foreach (var damageable in FindAllDamageable())
+        foreach (var damageable in FindAll<IDamageable>())
             damageable.Damage((int)damage);
     }
 }

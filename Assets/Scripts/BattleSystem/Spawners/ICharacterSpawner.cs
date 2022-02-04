@@ -2,9 +2,9 @@ using UnityEngine;
 
 namespace BattleSystem
 {
-    public interface ICharacterSpawner
+    public interface ISpawner
     {
-        GameObject CharacterPrefab { get; }
+        GameObject Prefab { get; }
         Vector3 SpawnPosition { get; }
         void Spawn();
     }

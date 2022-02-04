@@ -21,8 +21,7 @@ public class Health : MonoBehaviour, IDamageable, IHealable
 
     public int Damage(int damagePoints)
     {
-        if (damagePoints < 0)
-            return 0;
+        if (damagePoints < 0) return 0;
         
         this.points -= damagePoints;
         OnGetDamage?.Invoke(damagePoints, this.points);
@@ -33,8 +32,15 @@ public class Health : MonoBehaviour, IDamageable, IHealable
     }
 
 
-    public int Heal()
+    public int Heal(int healPoints)
     {
-        throw new NotImplementedException();
+        if (healPoints < 0) return 0;
+
+        if (this.points + healPoints > maxPoints)
+            healPoints = maxPoints - this.points;
+        this.points += healPoints;
+        OnGetHeal?.Invoke(healPoints, this.points);
+
+        return healPoints;
     }
 }

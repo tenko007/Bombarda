@@ -3,11 +3,11 @@ using UnityEngine;
 
 namespace BattleSystem
 {
-    public class CharacterSpawnerOnDeath : MonoBehaviour, ICharacterSpawner
+    public class CharacterSpawnerOnDeath : MonoBehaviour, ISpawner
     {
         [SerializeField] private GameObject characterPrefab;
 
-        public GameObject CharacterPrefab => characterPrefab;
+        public GameObject Prefab => characterPrefab;
         public Vector3 SpawnPosition => thisPosition;
         
         private Vector3 thisPosition;

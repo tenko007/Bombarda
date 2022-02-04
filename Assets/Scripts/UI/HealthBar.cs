@@ -17,6 +17,13 @@ namespace DefaultNamespace
         {
             _maxHealth = health.MaxPoints;
             health.OnGetDamage += UpdateHealth;
+            health.OnGetHeal += UpdateHealth;
+        }
+
+        private void OnDestroy()
+        {
+            health.OnGetDamage -= UpdateHealth;
+            health.OnGetHeal -= UpdateHealth;
         }
 
         private void UpdateHealth(int damage, int healthRemain)
