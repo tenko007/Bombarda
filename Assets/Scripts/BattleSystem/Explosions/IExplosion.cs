@@ -1,5 +1,9 @@
-public interface IExplosion
+using Cysharp.Threading.Tasks;
+
+namespace BattleSystem.newExplosions
 {
-    float BaseDamage { get; }
-    void Explode();
+    public interface IExplosion
+    {
+        UniTask Explode();
+    }
 }

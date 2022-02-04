@@ -1,37 +1,30 @@
-using System;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-public abstract class Explosion : MonoBehaviour, IExplosion
+namespace BattleSystem.newExplosions
 {
-    [SerializeField] private float baseDamage = 1f;
-    [SerializeField] private float destroyDelay = 5f;
-    public float BaseDamage => baseDamage;
-    
-    protected float damage;
-
-    protected virtual void Init()
+    [CreateAssetMenu(menuName = "ScriptableObjects/Explosions/Explosion")]
+    public class Explosion : SerializedScriptableObject, IExplosion
     {
-        damage = BaseDamage;
-        Explode();
-    }
+        private Transform parentTransform;
+        public List<Step> steps;
+        public async UniTask Explode()
+        {
+            if (steps.Count == 0) return;
+            foreach (var step in steps)
+            {
+                step.SetParentTransform(parentTransform);
+                await step.Execute();
+                Debug.Log($"Step {step.name} completed!");
+            }
+        }
 
-    private void Awake()
-    {
-        Init();
-    }
+        public void SetParentTransform(Transform transform) =>
+            this.parentTransform = transform;
 
-    public virtual void Explode()
-    {
-        DamageAll();
-        Destroy(this.gameObject, destroyDelay);
-    }
-    
-    public abstract List<T> FindAll<T>();
-
-    public virtual void DamageAll()
-    {
-        foreach (var damageable in FindAll<IDamageable>())
-            damageable.Damage((int)damage);
+        public async UniTask Execute() =>
+            await Explode();
     }
 }

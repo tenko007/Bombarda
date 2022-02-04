@@ -2,9 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DeleteBaseChildsStep.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DeleteBaseChildsStep.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/IStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/IStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bomb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Bomb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ContactBomb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/ContactBomb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DelayedBomb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/DelayedBomb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/HealBomb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/HealBomb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SmartBomb.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SmartBomb.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/BombWithTimer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/BombWithTimer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/ContactBomb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/ContactBomb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/HealBomb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/HealBomb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/SmartBombWithTimer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/SmartBombWithTimer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/HealExplosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/HealExplosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MegaExplosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MegaExplosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SmartSphereExplosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SmartSphereExplosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SphereExplosion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/SphereExplosion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/0_2secTimerExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/0_2secTimerExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/BombardaBomb.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/BombardaBomb.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/DoubleExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/DoubleExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/InfiniteBomb.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/InfiniteBomb.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/MegaExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/MegaExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/SimpleExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/SimpleExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/TimerExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Explosions/TimerExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/0_2secDelay.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/0_2secDelay.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/1_8secDelay.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/1_8secDelay.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/2secDelay.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/2secDelay.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/5secDelay.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/5secDelay.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/DestroyStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/DestroyStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/0_2secTimerExplosionStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/0_2secTimerExplosionStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/InfiniteExplosionStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/InfiniteExplosionStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/MegaExplosionStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/MegaExplosionStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/SimpleExplosionStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/SimpleExplosionStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/TimerExplosionStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/ExplosionSteps/TimerExplosionStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/HideMeshStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/HideMeshStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/InstantiateExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/InstantiateExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/InstantiateMegaExplosion.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/InstantiateMegaExplosion.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/PlaySoundStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/PlaySoundStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/SphereDamageStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/SphereDamageStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/SphereHealStep.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/New/Steps/SphereHealStep.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/HealthBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/HealthBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/Bomb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/Bomb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/BombWithTimer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/BombWithTimer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/ContactBomb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/ContactBomb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/IExplosive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/IExplosive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/CrossExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/CrossExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/DelayedExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/DelayedExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/HealExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/HealExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SmartSphereExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SmartSphereExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SphereExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SphereExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/Explosives.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/IExplosion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Explosions/IExplosion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/DamageStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/DamageStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/DamageStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/DamageStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/IStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/IStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/IStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/IStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/Step.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/Step.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/Abstractions/Step.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Abstractions/Step.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/DelayStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DelayStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/DelayStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DelayStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/DestroyStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/DestroyStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/ExplosionStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/ExplosionStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/ExplosionStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/ExplosionStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/HideMeshStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/HideMeshStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/HideMeshStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/HideMeshStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/InstantiateObjectStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/InstantiateObjectStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/InstantiateObjectStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/InstantiateObjectStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/PlaySoundStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/PlaySoundStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/PlaySoundStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/PlaySoundStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/SphereDamageStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereDamageStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/SphereDamageStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereDamageStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/SphereHealStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereHealStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/newExplosions/Steps/SphereHealStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereHealStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +220,7 @@
       <workItem from="1643900489291" duration="616000" />
       <workItem from="1643902203389" duration="10004000" />
       <workItem from="1643972960815" duration="2773000" />
-      <workItem from="1643979689749" duration="17451000" />
+      <workItem from="1643979689749" duration="22013000" />
     </task>
     <servers />
   </component>
