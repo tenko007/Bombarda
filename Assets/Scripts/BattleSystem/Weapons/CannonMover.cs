@@ -26,10 +26,7 @@ namespace BattleSystem
 
         private void Rotate()
         {
-            thisTransform.Rotate(Vector3.up, rotateSpeed * rotationSide);
-            if ((thisTransform.rotation.eulerAngles.y < minYAngle) 
-                || (thisTransform.rotation.eulerAngles.y > maxYAngle))
-                rotationSide *= -1;
+            // TODO
         }
     }
 }

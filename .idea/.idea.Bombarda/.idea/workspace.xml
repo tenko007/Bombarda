@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/HealExplosion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/HealExplosion.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/circle_AB.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Materials/Basics/circle_AB.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/CharacterSpawnerOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/CharacterSpawnerOnDeath.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/CharacterSpawnerOnDeath.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/CharacterSpawnerOnDeath.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Death.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/Death.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Death.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/Death.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/CrossExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/CrossExplosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/ContactBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Bombs/ContactBomb.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SphereExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/SphereExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Health.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/Health.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/ICharacterSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/ICharacterSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/ICharacterSpawner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/ICharacterSpawner.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/IDamageable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/IDamageable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/IDamageable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/IDamageable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/IHealable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/IHealable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/IHealable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Components/IHealable.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/CharacterSpawnerOnDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Spawners/CharacterSpawnerOnDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/CannonMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/CannonMover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +70,7 @@
       <workItem from="1643830187809" duration="4978000" />
       <workItem from="1643900489291" duration="616000" />
       <workItem from="1643902203389" duration="10004000" />
-      <workItem from="1643972960815" duration="2090000" />
+      <workItem from="1643972960815" duration="2407000" />
     </task>
     <servers />
   </component>

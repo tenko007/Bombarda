@@ -6,7 +6,6 @@ namespace BattleSystem
     public class CharacterSpawnerOnDeath : MonoBehaviour, ISpawner
     {
         [SerializeField] private GameObject characterPrefab;
-
         public GameObject Prefab => characterPrefab;
         public Vector3 SpawnPosition => thisPosition;
         

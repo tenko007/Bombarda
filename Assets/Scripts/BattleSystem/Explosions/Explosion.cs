@@ -4,7 +4,6 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
-[Serializable] //TODO Do i need it?
 public abstract class Explosion : MonoBehaviour, IExplosion
 {
     [SerializeField] private float baseDamage = 1f;

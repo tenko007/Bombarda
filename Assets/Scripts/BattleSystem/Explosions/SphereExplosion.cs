@@ -15,15 +15,15 @@ public class SphereExplosion : Explosion
 
     public override List<T> FindAll<T>()
     {
-        List<T> TList = new List<T>();
+        List<T> list = new List<T>();
         foreach (var contact in FindAllCollidersNearby())
         {
-            var TComponent = contact.gameObject.GetComponent<T>();
-            if (TComponent != null)
-                TList.Add(TComponent);
+            var component = contact.gameObject.GetComponent<T>();
+            if (component != null)
+                list.Add(component);
         }
 
-        return TList;
+        return list;
     }
 
     protected Collider[] FindAllCollidersNearby()
