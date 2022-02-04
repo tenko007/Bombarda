@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SphereCollider))]
 public class SphereExplosion : Explosion
 {
     [SerializeField] private float radius = 5f;

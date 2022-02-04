@@ -2,8 +2,6 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(Collider))]
 public abstract class Explosion : MonoBehaviour, IExplosion
 {
     [SerializeField] private float baseDamage = 1f;
