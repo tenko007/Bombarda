@@ -5,7 +5,7 @@ using UnityEngine;
 namespace BattleSystem.newExplosions
 {
     [CreateAssetMenu(menuName = "ScriptableObjects/Explosions/Explosion")]
-    public class Explosion : ScriptableObject, IExplosion//, IStep
+    public class Explosion : ScriptableObject, IExplosion
     {
         private Transform parentTransform;
         public List<Step> steps;
