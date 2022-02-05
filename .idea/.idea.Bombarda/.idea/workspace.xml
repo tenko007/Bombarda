@@ -2,19 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyObjectStep.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyObjectStep.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/ScaleObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/ScaleObject.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ExplosionFireballBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ExplosionFireballBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ExplosionNovaSmallBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ExplosionNovaSmallBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/FrostExplosionBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/FrostExplosionBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/GrenadeExplosionBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/GrenadeExplosionBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/HealExplosionGreen.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/HealExplosionGreen.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MagicExplosionBlue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MagicExplosionBlue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MagicExplosionFire.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/MagicExplosionFire.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ShadowExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosions/ShadowExplosion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/DoubleBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/DoubleBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/InfiniteBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/InfiniteBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/MegaBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/SimpleBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/SimpleBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Cannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Cannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/HealCannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/HealCannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/MegaCannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/MegaCannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/TimerCannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/TimerCannon.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/MegaExplosion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/MegaExplosion.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/SimpleExplosion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/SimpleExplosion.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/TimerExplosion.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Explosions/TimerExplosion.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/HideMesh.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/HideMesh.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyStep.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyParentStep.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyStep.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/DestroyParentStep.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SpawnObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SpawnObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereDamage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/SphereDamage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/CannonMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/CannonMover.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Weapons/Mover.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +91,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="16472">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="16472" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -87,7 +115,8 @@
       <workItem from="1643900489291" duration="616000" />
       <workItem from="1643902203389" duration="10004000" />
       <workItem from="1643972960815" duration="2773000" />
-      <workItem from="1643979689749" duration="28044000" />
+      <workItem from="1643979689749" duration="28877000" />
+      <workItem from="1644055148396" duration="2340000" />
     </task>
     <servers />
   </component>

@@ -4,9 +4,13 @@ using UnityEngine;
 public class SpawnObject : ExplosionStep
 {
     [SerializeField] private GameObject objectToSpawn;
+    [SerializeField] private float scale = 1f;
     [SerializeField] private float destroyAfterSeconds = 5f;
 
-    public override async UniTask Execute() =>
-        GameObject.Destroy( 
-            GameObject.Instantiate(objectToSpawn, ParentTransform), destroyAfterSeconds);
+    public override async UniTask Execute()
+    {
+        GameObject newObject = GameObject.Instantiate(objectToSpawn, ParentTransform);
+        newObject.transform.localScale *= scale;
+        GameObject.Destroy(newObject, destroyAfterSeconds);
+    }
 }

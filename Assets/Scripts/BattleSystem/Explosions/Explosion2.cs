@@ -4,8 +4,7 @@ using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ScriptableObjects/Explosion")]
-public class Explosion : SerializedScriptableObject, IExplosion
+public class Explosion2 : IExplosion
 {
     private Transform parentTransform;
     public List<IExplosionStep> steps;

@@ -5,7 +5,7 @@ using UnityEngine.PlayerLoop;
 
 namespace BattleSystem
 {
-    public class CannonMover : MonoBehaviour
+    public class Mover : MonoBehaviour
     {
         [SerializeField] private float minYAngle = -90f;
         [SerializeField] private float maxYAngle = 90f;

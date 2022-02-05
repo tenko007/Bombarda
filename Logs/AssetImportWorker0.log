@@ -15,7 +15,7 @@ H:/GitHub/Bombarda
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53314
+64069
 Successfully changed project path to: H:/GitHub/Bombarda
 H:/GitHub/Bombarda
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ H:/GitHub/Bombarda
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 43.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
 [Subsystems] Discovering subsystems at path H:/Program Files/Unity/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
@@ -65,92 +65,92 @@ Initialize mono
 Mono path[0] = 'H:/Program Files/Unity/2021.2.8f1/Editor/Data/Managed'
 Mono path[1] = 'H:/Program Files/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'H:/Program Files/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: H:/Program Files/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: H:/Program Files/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003755 seconds.
+Registered in 0.004961 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 31.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
+- Completed reload, in  0.706 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (706ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (460ms)
-			LoadAssemblies (140ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (130ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
+				RefreshPlugins (32ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009026 seconds.
+Registered in 0.010897 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.085 seconds
+- Completed reload, in  2.237 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2086ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1810ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1957ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (270ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1352ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1497ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (1123ms)
-				ProcessInitializeOnLoadMethodAttributes (166ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (1252ms)
+				ProcessInitializeOnLoadMethodAttributes (174ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (50.3 KB). Loaded Objects now: 2250.
-Memory consumption went from 77.7 MB to 77.6 MB.
-Total: 19.848200 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.080000 ms MarkObjects: 19.460400 ms  DeleteObjects: 0.121000 ms)
+Unloading 1739 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (50.3 KB). Loaded Objects now: 2251.
+Memory consumption went from 77.7 MB to 77.7 MB.
+Total: 21.126900 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.127800 ms MarkObjects: 20.690100 ms  DeleteObjects: 0.118400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,422 +164,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 284119.258623 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset
-  artifactKey: Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset using Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03263433e94d34a418b7c30b28ff57c2') in 0.147677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/SimpleExplosion.asset
-  artifactKey: Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/SimpleExplosion.asset using Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cf0a6b2f195ad686199d5aa755b41f') in 0.009187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.710467 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/InfiniteBomb.asset
-  artifactKey: Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/InfiniteBomb.asset using Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22885fb2ac90c8e95f013bf1757ee5d8') in 0.012243 seconds 
+  Time since last request: 324347.701650 seconds.
+  path: Assets/ScriptableObjects/Explosions/HealExplosion.asset
+  artifactKey: Guid(714306baf0399344baa1db4c8243501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/HealExplosion.asset using Guid(714306baf0399344baa1db4c8243501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d97c95226ab2b3f04b56d207082e83') in 0.166303 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008441 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.058 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3058ms)
-		BeginReloadAssembly (211ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (2740ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (2250ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (1870ms)
-				ProcessInitializeOnLoadMethodAttributes (302ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2254.
-Memory consumption went from 76.6 MB to 76.5 MB.
-Total: 22.754400 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.064900 ms MarkObjects: 22.470600 ms  DeleteObjects: 0.024300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 65.867092 seconds.
-  path: Assets/Prefabs/Bombs/InfiniteBomb.prefab
-  artifactKey: Guid(a8c056989a9d03349a442c8c8c4477fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bombs/InfiniteBomb.prefab using Guid(a8c056989a9d03349a442c8c8c4477fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2252b124fd0bfd0f1f81ca0d6381cdb5') in 0.267143 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009287 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.905 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2906ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (2594ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (2090ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (1801ms)
-				ProcessInitializeOnLoadMethodAttributes (211ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (6ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (34.6 KB). Loaded Objects now: 2262.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 22.989500 ms (FindLiveObjects: 0.184200 ms CreateObjectMapping: 0.066000 ms MarkObjects: 22.712800 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008527 seconds.
+Registered in 0.010196 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.077 seconds
+- Completed reload, in  2.811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3077ms)
-		BeginReloadAssembly (211ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (2757ms)
-			LoadAssemblies (138ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (2299ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (1944ms)
-				ProcessInitializeOnLoadMethodAttributes (283ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2264.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 26.883500 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 1.935900 ms MarkObjects: 24.651600 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1592.412762 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/TimerExplosion.asset
-  artifactKey: Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/TimerExplosion.asset using Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac17e091d2ced7762d7a21fc3d0f543') in 0.121061 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015972 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.244 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3244ms)
-		BeginReloadAssembly (335ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (146ms)
-		EndReloadAssembly (2754ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (470ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (167ms)
-			SetupLoadedEditorAssemblies (1907ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (165ms)
-				ProcessInitializeOnLoadAttributes (1500ms)
-				ProcessInitializeOnLoadMethodAttributes (216ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2266.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 23.063300 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.064900 ms MarkObjects: 22.798800 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011418 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.817 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3818ms)
-		BeginReloadAssembly (230ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (3471ms)
-			LoadAssemblies (154ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (2924ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (2416ms)
-				ProcessInitializeOnLoadMethodAttributes (418ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (8ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2268.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 57.165800 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.155600 ms MarkObjects: 56.804800 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009140 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.405 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2406ms)
-		BeginReloadAssembly (221ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2055ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (1449ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (1195ms)
-				ProcessInitializeOnLoadMethodAttributes (163ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2270.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 25.965200 ms (FindLiveObjects: 0.174000 ms CreateObjectMapping: 0.070100 ms MarkObjects: 25.697000 ms  DeleteObjects: 0.023000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011905 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.974 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2975ms)
-		BeginReloadAssembly (254ms)
+	ReloadAssembly (2811ms)
+		BeginReloadAssembly (220ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (2607ms)
-			LoadAssemblies (185ms)
+		EndReloadAssembly (2473ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (192ms)
-			SetupLoadedEditorAssemblies (1817ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1968ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (1561ms)
-				ProcessInitializeOnLoadMethodAttributes (185ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (1575ms)
+				ProcessInitializeOnLoadMethodAttributes (317ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2272.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 19.973800 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.120500 ms MarkObjects: 19.650600 ms  DeleteObjects: 0.024000 ms)
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2254.
+Memory consumption went from 76.6 MB to 76.6 MB.
+Total: 31.931800 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.163900 ms MarkObjects: 31.558900 ms  DeleteObjects: 0.023500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -594,223 +228,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012623 seconds.
+Registered in 0.011103 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.343 seconds
+- Completed reload, in  3.336 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2344ms)
-		BeginReloadAssembly (262ms)
+	ReloadAssembly (3337ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1975ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2988ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (290ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1526ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (1235ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2274.
-Memory consumption went from 80.5 MB to 80.5 MB.
-Total: 20.534800 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.064900 ms MarkObjects: 20.278800 ms  DeleteObjects: 0.027800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 218.697993 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/DoubleExplosion.asset
-  artifactKey: Guid(a5e003543fc8f7349a7835c0d496f1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/DoubleExplosion.asset using Guid(a5e003543fc8f7349a7835c0d496f1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ArgumentException: Type cannot be instantiated
-Parameter name: type
-  at (wrapper managed-to-native) System.Runtime.Remoting.Activation.ActivationServices.AllocateUninitializedClassInstance(System.Type)
-  at System.Runtime.Serialization.FormatterServices.nativeGetUninitializedObject (System.RuntimeType type) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at System.Runtime.Serialization.FormatterServices.GetUninitializedObject (System.Type type) [0x00035] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at Sirenix.Serialization.BaseFormatter`1[T].GetUninitializedObject () [0x00011] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:340 
-  at Sirenix.Serialization.BaseFormatter`1[T].Deserialize (Sirenix.Serialization.IDataReader reader) [0x00007] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:188 
-  at Sirenix.Serialization.BaseFormatter`1[T].Sirenix.Serialization.IFormatter.Deserialize (Sirenix.Serialization.IDataReader reader) [0x00000] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:175 
-  at Sirenix.Serialization.ComplexTypeSerializer`1[T].ReadValue (Sirenix.Serialization.IDataReader reader) [0x0079b] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:294 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Sirenix.Serialization.CustomLogger:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\Sirenix Solution\Sirenix.Serialization.Config\CustomLogger.cs:67)
-Sirenix.Serialization.DebugContext:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Misc\SerializationConfig.cs:252)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:389)
-Sirenix.Serialization.ListFormatter`1:DeserializeImplementation(List`1&, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\ListFormatter.cs:91)
-Sirenix.Serialization.BaseFormatter`1:Deserialize(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:222)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:366)
-Sirenix.Serialization.Serializer`1:ReadValueWeak(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\Serializer.cs:261)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1881)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext, Boolean, List`1) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1598)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1312)
-Sirenix.OdinInspector.SerializedScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\SerializedUnityObjects\SerializedScriptableObject.cs:35)
-
-(Filename: Y:/Repositories/sirenix-development-framework/OdinSerializer/OdinSerializer/Core/Misc/SerializationConfig.cs Line: 252)
-
-ArgumentException: Type cannot be instantiated
-Parameter name: type
-  at (wrapper managed-to-native) System.Runtime.Remoting.Activation.ActivationServices.AllocateUninitializedClassInstance(System.Type)
-  at System.Runtime.Serialization.FormatterServices.nativeGetUninitializedObject (System.RuntimeType type) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at System.Runtime.Serialization.FormatterServices.GetUninitializedObject (System.Type type) [0x00035] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at Sirenix.Serialization.BaseFormatter`1[T].GetUninitializedObject () [0x00011] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:340 
-  at Sirenix.Serialization.BaseFormatter`1[T].Deserialize (Sirenix.Serialization.IDataReader reader) [0x00007] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:188 
-  at Sirenix.Serialization.BaseFormatter`1[T].Sirenix.Serialization.IFormatter.Deserialize (Sirenix.Serialization.IDataReader reader) [0x00000] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:175 
-  at Sirenix.Serialization.ComplexTypeSerializer`1[T].ReadValue (Sirenix.Serialization.IDataReader reader) [0x0079b] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:294 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Sirenix.Serialization.CustomLogger:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\Sirenix Solution\Sirenix.Serialization.Config\CustomLogger.cs:67)
-Sirenix.Serialization.DebugContext:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Misc\SerializationConfig.cs:252)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:389)
-Sirenix.Serialization.ListFormatter`1:DeserializeImplementation(List`1&, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\ListFormatter.cs:91)
-Sirenix.Serialization.BaseFormatter`1:Deserialize(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:222)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:366)
-Sirenix.Serialization.Serializer`1:ReadValueWeak(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\Serializer.cs:261)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1881)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext, Boolean, List`1) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1598)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1312)
-Sirenix.OdinInspector.SerializedScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\SerializedUnityObjects\SerializedScriptableObject.cs:35)
-
-(Filename: Y:/Repositories/sirenix-development-framework/OdinSerializer/OdinSerializer/Core/Misc/SerializationConfig.cs Line: 252)
-
- -> (artifact id: '0baced9c5490e647201910c403ba3b15') in 0.101697 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010219 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.719 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2720ms)
-		BeginReloadAssembly (261ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (2285ms)
-			LoadAssemblies (207ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (11ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (1573ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (1282ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2276.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 19.380000 ms (FindLiveObjects: 0.158900 ms CreateObjectMapping: 0.064800 ms MarkObjects: 19.132100 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009366 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.217 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2217ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1903ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (1379ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (2476ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (1139ms)
-				ProcessInitializeOnLoadMethodAttributes (154ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (2075ms)
+				ProcessInitializeOnLoadMethodAttributes (322ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2278.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 19.026800 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.066900 ms MarkObjects: 18.747400 ms  DeleteObjects: 0.023200 ms)
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2256.
+Memory consumption went from 76.6 MB to 76.6 MB.
+Total: 26.257900 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.142000 ms MarkObjects: 25.726800 ms  DeleteObjects: 0.021500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -825,49 +285,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010627 seconds.
+Registered in 0.009068 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.328 seconds
+- Completed reload, in  3.159 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2329ms)
+	ReloadAssembly (3160ms)
 		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1943ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (2831ms)
+			LoadAssemblies (147ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (1432ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (2340ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (1176ms)
-				ProcessInitializeOnLoadMethodAttributes (163ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (1957ms)
+				ProcessInitializeOnLoadMethodAttributes (309ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2280.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 22.040800 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.063800 ms MarkObjects: 21.771800 ms  DeleteObjects: 0.024100 ms)
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2258.
+Memory consumption went from 76.6 MB to 76.6 MB.
+Total: 26.740000 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.143600 ms MarkObjects: 26.367600 ms  DeleteObjects: 0.026600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -880,279 +340,287 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 179.553914 seconds.
+  path: Assets/Prefabs/Bombs/SimpleBomb.prefab
+  artifactKey: Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/SimpleBomb.prefab using Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af6c860fb3cf3e76867ba7f612af14') in 0.375058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.015587 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07020b33a4a539a77a42eb8f79406549') in 0.043813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.434299 seconds.
+  path: Assets/Prefabs/Weapons/MegaCannon.prefab
+  artifactKey: Guid(014be0ff2295aeb45be29e7e5c405ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/MegaCannon.prefab using Guid(014be0ff2295aeb45be29e7e5c405ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
+ -> (artifact id: '10bb238c6c72e448e56a385aa6e8d304') in 0.037263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.101987 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0491d6643c13f5f75a810a1f588cf8') in 0.032397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.983767 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51066a0e64dd2ec4c311d0c13e915204') in 0.029073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.149711 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc6caf128eb9912abe76129a7483157') in 0.025766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.398224 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f81c997e36ba95bc1c295e9c63011') in 0.032068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.569516 seconds.
+  path: Assets/Prefabs/Bombs/SimpleBomb.prefab
+  artifactKey: Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/SimpleBomb.prefab using Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31bac1bc903ced8ef15df2e79a9c4e') in 0.027016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.167139 seconds.
+  path: Assets/Prefabs/Bombs/SimpleBomb.prefab
+  artifactKey: Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/SimpleBomb.prefab using Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f50fc3fe8a38d1c3897ac4fe544ab7') in 0.029126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.970315 seconds.
+  path: Assets/Prefabs/Bombs/SimpleBomb.prefab
+  artifactKey: Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/SimpleBomb.prefab using Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae639b64479163622171f7395ffec6c') in 0.028283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368316 seconds.
+  path: Assets/Prefabs/Bombs/SimpleBomb.prefab
+  artifactKey: Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/SimpleBomb.prefab using Guid(de8a84b4842897b4f927561b7ae7b727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79666324053c059fd8d54e292011f8e6') in 0.034035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.132948 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbd5f3061c03fed1572c4ca16371e38') in 0.021636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.352413 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb59806f31e21243c6eb44dc1d0ab2dc') in 0.021248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.614552 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6bc6fe1232a9fe5f5717f95b613a58') in 0.034369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.350249 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddac584b0bf8b8f1a4d64808be5f8063') in 0.025302 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022720 seconds.
+Registered in 0.010898 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.216 seconds
+- Completed reload, in  3.037 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3217ms)
-		BeginReloadAssembly (948ms)
+	ReloadAssembly (3038ms)
+		BeginReloadAssembly (230ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (39ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (346ms)
-		EndReloadAssembly (2139ms)
-			LoadAssemblies (460ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2688ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (1507ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (1278ms)
-				ProcessInitializeOnLoadMethodAttributes (162ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2282.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 21.306600 ms (FindLiveObjects: 0.165700 ms CreateObjectMapping: 0.095700 ms MarkObjects: 21.019900 ms  DeleteObjects: 0.024100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.022644 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.314 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2316ms)
-		BeginReloadAssembly (301ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (116ms)
-		EndReloadAssembly (1907ms)
-			LoadAssemblies (146ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (272ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (1204ms)
-				ProcessInitializeOnLoadMethodAttributes (182ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2284.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 19.108000 ms (FindLiveObjects: 0.175200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 18.842100 ms  DeleteObjects: 0.025300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.032090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.251 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4252ms)
-		BeginReloadAssembly (646ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (133ms)
-		EndReloadAssembly (3279ms)
-			LoadAssemblies (471ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1724ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (1010ms)
-				ProcessInitializeOnLoadMethodAttributes (558ms)
-				AfterProcessingInitializeOnLoad (82ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (579ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2286.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 50.389300 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.065500 ms MarkObjects: 50.092900 ms  DeleteObjects: 0.030900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013651 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.100 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4104ms)
-		BeginReloadAssembly (444ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (99ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (109ms)
-		EndReloadAssembly (3512ms)
-			LoadAssemblies (194ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (347ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (2551ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (1034ms)
-				ProcessInitializeOnLoadMethodAttributes (1374ms)
-				AfterProcessingInitializeOnLoad (54ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (205ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2288.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 45.588800 ms (FindLiveObjects: 0.201100 ms CreateObjectMapping: 0.067600 ms MarkObjects: 45.294100 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.020989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.331 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6332ms)
-		BeginReloadAssembly (708ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (7ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (5078ms)
-			LoadAssemblies (525ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (443ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (3883ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (2183ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (260ms)
-				ProcessInitializeOnLoadAttributes (3034ms)
-				ProcessInitializeOnLoadMethodAttributes (556ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (1757ms)
+				ProcessInitializeOnLoadMethodAttributes (336ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2270.
+Memory consumption went from 80.9 MB to 80.8 MB.
+Total: 26.001600 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.226600 ms MarkObjects: 25.421900 ms  DeleteObjects: 0.022700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.766711 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f4c914101bb28d7311ca0682c46ac6') in 0.433041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083700 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787eafe67ceb42c1ed01105eb021a633') in 0.021627 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.369 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3370ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3038ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (2522ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (2070ms)
+				ProcessInitializeOnLoadMethodAttributes (368ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2272.
+Memory consumption went from 80.9 MB to 80.9 MB.
+Total: 31.899300 ms (FindLiveObjects: 0.245000 ms CreateObjectMapping: 0.193300 ms MarkObjects: 31.433900 ms  DeleteObjects: 0.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.270545 seconds.
+  path: Assets/Prefabs/Weapons/TimerCannon.prefab
+  artifactKey: Guid(38e27035f9e6b08458b4b57cd14b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/TimerCannon.prefab using Guid(38e27035f9e6b08458b4b57cd14b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tried select unknown importer for id '-2' '00000000000000000000000000000000'
+ -> (artifact id: 'c25d096642548f17a2ba72c8fa4e7758') in 0.347215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.493839 seconds.
+  path: Assets/Prefabs/Bombs/DoubleBomb.prefab
+  artifactKey: Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/DoubleBomb.prefab using Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8f705042b5e491b85d1cc3905573f6') in 0.053125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.477276 seconds.
+  path: Assets/Prefabs/Bombs/MegaBomb.prefab
+  artifactKey: Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/MegaBomb.prefab using Guid(0aabe818e4d63a244bab61c1d8749d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ee6262c05fdada37d5e145e8c9b9f7') in 0.022871 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.114 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3115ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2757ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (2241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (1856ms)
+				ProcessInitializeOnLoadMethodAttributes (296ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2290.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 39.264300 ms (FindLiveObjects: 16.788200 ms CreateObjectMapping: 0.247900 ms MarkObjects: 22.202800 ms  DeleteObjects: 0.024100 ms)
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2274.
+Memory consumption went from 80.9 MB to 80.9 MB.
+Total: 25.234400 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.221800 ms MarkObjects: 24.789900 ms  DeleteObjects: 0.025700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1167,163 +635,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.039358 seconds.
+Registered in 0.009532 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.248 seconds
+- Completed reload, in  2.838 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11249ms)
-		BeginReloadAssembly (717ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (97ms)
-		EndReloadAssembly (8601ms)
-			LoadAssemblies (885ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1757ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (179ms)
-			SetupLoadedEditorAssemblies (5265ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (79ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (153ms)
-				ProcessInitializeOnLoadAttributes (4546ms)
-				ProcessInitializeOnLoadMethodAttributes (471ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (132ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2292.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 64.408000 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.126800 ms MarkObjects: 64.076900 ms  DeleteObjects: 0.024100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.030221 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.046 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3058ms)
-		BeginReloadAssembly (246ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (61ms)
-		EndReloadAssembly (2670ms)
-			LoadAssemblies (171ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (1921ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (1581ms)
-				ProcessInitializeOnLoadMethodAttributes (269ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2294.
-Memory consumption went from 80.7 MB to 80.7 MB.
-Total: 21.551600 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.144100 ms MarkObjects: 21.161300 ms  DeleteObjects: 0.026600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023033 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.138 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2139ms)
-		BeginReloadAssembly (203ms)
+	ReloadAssembly (2839ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1829ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2533ms)
+			LoadAssemblies (136ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1365ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (2067ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (1141ms)
-				ProcessInitializeOnLoadMethodAttributes (151ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (2ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (1732ms)
+				ProcessInitializeOnLoadMethodAttributes (249ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1721 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2296.
-Memory consumption went from 80.8 MB to 80.7 MB.
-Total: 20.636100 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.071300 ms MarkObjects: 20.323900 ms  DeleteObjects: 0.021900 ms)
+Unloading 1723 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2276.
+Memory consumption went from 80.9 MB to 80.9 MB.
+Total: 25.126900 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.064300 ms MarkObjects: 24.848300 ms  DeleteObjects: 0.024700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1337,154 +691,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 514.216799 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/InfiniteBomb.asset
-  artifactKey: Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/InfiniteBomb.asset using Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ArgumentException: Type cannot be instantiated
-Parameter name: type
-  at (wrapper managed-to-native) System.Runtime.Remoting.Activation.ActivationServices.AllocateUninitializedClassInstance(System.Type)
-  at System.Runtime.Serialization.FormatterServices.nativeGetUninitializedObject (System.RuntimeType type) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at System.Runtime.Serialization.FormatterServices.GetUninitializedObject (System.Type type) [0x00035] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at Sirenix.Serialization.BaseFormatter`1[T].GetUninitializedObject () [0x00011] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:340 
-  at Sirenix.Serialization.BaseFormatter`1[T].Deserialize (Sirenix.Serialization.IDataReader reader) [0x00007] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:188 
-  at Sirenix.Serialization.BaseFormatter`1[T].Sirenix.Serialization.IFormatter.Deserialize (Sirenix.Serialization.IDataReader reader) [0x00000] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:175 
-  at Sirenix.Serialization.ComplexTypeSerializer`1[T].ReadValue (Sirenix.Serialization.IDataReader reader) [0x0079b] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:294 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Sirenix.Serialization.CustomLogger:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\Sirenix Solution\Sirenix.Serialization.Config\CustomLogger.cs:67)
-Sirenix.Serialization.DebugContext:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Misc\SerializationConfig.cs:252)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:389)
-Sirenix.Serialization.ListFormatter`1:DeserializeImplementation(List`1&, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\ListFormatter.cs:91)
-Sirenix.Serialization.BaseFormatter`1:Deserialize(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:222)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:366)
-Sirenix.Serialization.Serializer`1:ReadValueWeak(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\Serializer.cs:261)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1881)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext, Boolean, List`1) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1598)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1312)
-Sirenix.OdinInspector.SerializedScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\SerializedUnityObjects\SerializedScriptableObject.cs:35)
-
-(Filename: Y:/Repositories/sirenix-development-framework/OdinSerializer/OdinSerializer/Core/Misc/SerializationConfig.cs Line: 252)
-
-ArgumentException: Type cannot be instantiated
-Parameter name: type
-  at (wrapper managed-to-native) System.Runtime.Remoting.Activation.ActivationServices.AllocateUninitializedClassInstance(System.Type)
-  at System.Runtime.Serialization.FormatterServices.nativeGetUninitializedObject (System.RuntimeType type) [0x00000] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at System.Runtime.Serialization.FormatterServices.GetUninitializedObject (System.Type type) [0x00035] in <47ab72e0328040438980f9c23608e1ec>:0 
-  at Sirenix.Serialization.BaseFormatter`1[T].GetUninitializedObject () [0x00011] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:340 
-  at Sirenix.Serialization.BaseFormatter`1[T].Deserialize (Sirenix.Serialization.IDataReader reader) [0x00007] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:188 
-  at Sirenix.Serialization.BaseFormatter`1[T].Sirenix.Serialization.IFormatter.Deserialize (Sirenix.Serialization.IDataReader reader) [0x00000] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:175 
-  at Sirenix.Serialization.ComplexTypeSerializer`1[T].ReadValue (Sirenix.Serialization.IDataReader reader) [0x0079b] in Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:294 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-Sirenix.Serialization.CustomLogger:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\Sirenix Solution\Sirenix.Serialization.Config\CustomLogger.cs:67)
-Sirenix.Serialization.DebugContext:LogException(Exception) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Misc\SerializationConfig.cs:252)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:389)
-Sirenix.Serialization.ListFormatter`1:DeserializeImplementation(List`1&, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\ListFormatter.cs:91)
-Sirenix.Serialization.BaseFormatter`1:Deserialize(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Formatters\BaseFormatter.cs:222)
-Sirenix.Serialization.ComplexTypeSerializer`1:ReadValue(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\ComplexTypeSerializer.cs:366)
-Sirenix.Serialization.Serializer`1:ReadValueWeak(IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Core\Serializers\Serializer.cs:261)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, IDataReader) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1881)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext, Boolean, List`1) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1598)
-Sirenix.Serialization.UnitySerializationUtility:DeserializeUnityObject(Object, SerializationData&, DeserializationContext) (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\UnitySerializationUtility.cs:1312)
-Sirenix.OdinInspector.SerializedScriptableObject:UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize() (at Y:\Repositories\sirenix-development-framework\OdinSerializer\OdinSerializer\Unity Integration\SerializedUnityObjects\SerializedScriptableObject.cs:35)
-
-(Filename: Y:/Repositories/sirenix-development-framework/OdinSerializer/OdinSerializer/Core/Misc/SerializationConfig.cs Line: 252)
-
- -> (artifact id: '0af6a526b6e2cb267f11d9177ef5498d') in 0.110485 seconds 
+  Time since last request: 929.956523 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1577497f493806ae5079d070f80f6527') in 0.223192 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009570 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.251 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4251ms)
-		BeginReloadAssembly (503ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (237ms)
-		EndReloadAssembly (3503ms)
-			LoadAssemblies (280ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (177ms)
-			SetupLoadedEditorAssemblies (2635ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (2282ms)
-				ProcessInitializeOnLoadMethodAttributes (239ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2299.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 19.222700 ms (FindLiveObjects: 0.170300 ms CreateObjectMapping: 0.064100 ms MarkObjects: 18.962200 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008350 seconds.
+Registered in 0.008796 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.244 seconds
+- Completed reload, in  2.181 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2245ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (2181ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (1939ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1872ms)
 			LoadAssemblies (137ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (259ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (1363ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1416ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (1148ms)
-				ProcessInitializeOnLoadMethodAttributes (140ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (1192ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -1492,12 +735,219 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2301.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 19.160700 ms (FindLiveObjects: 0.162900 ms CreateObjectMapping: 0.063400 ms MarkObjects: 18.909500 ms  DeleteObjects: 0.023500 ms)
+Unloading 1724 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2279.
+Memory consumption went from 80.9 MB to 80.9 MB.
+Total: 19.137100 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.114000 ms MarkObjects: 18.830000 ms  DeleteObjects: 0.021800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.035625 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b0baba1feb425102098a85bdf6d3b8') in 0.209518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.528071 seconds.
+  path: Assets/Prefabs/Bombs/DoubleBomb.prefab
+  artifactKey: Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/DoubleBomb.prefab using Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c089c5b6591add9c099522f6c9cc20') in 0.030771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.808908 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343abae4a7b1afee71ccf112fc9043d5') in 0.023977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.614187 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388f976dd6aa20190a0506cef7b2baf6') in 0.028989 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.237 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2238ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (1230ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1724 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2281.
+Memory consumption went from 80.9 MB to 80.9 MB.
+Total: 19.441100 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.131300 ms MarkObjects: 19.091400 ms  DeleteObjects: 0.026500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 170.927175 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dfe42af68c25ae7d94a69b7e132507') in 0.226342 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2348ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (1991ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (1212ms)
+				ProcessInitializeOnLoadMethodAttributes (195ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.5 KB). Loaded Objects now: 2284.
+Memory consumption went from 81.0 MB to 80.9 MB.
+Total: 24.936800 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.065100 ms MarkObjects: 24.663700 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.224369 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457140934a8be373ad61d15fb518789b') in 0.227792 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009359 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2225ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1907ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1451ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (1201ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2286.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 19.736000 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.129500 ms MarkObjects: 19.392500 ms  DeleteObjects: 0.025500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1512,49 +962,452 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.010870 seconds.
+Registered in 0.008705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2090ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1798ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (1138ms)
+				ProcessInitializeOnLoadMethodAttributes (175ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2288.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 19.371500 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.073900 ms MarkObjects: 19.097400 ms  DeleteObjects: 0.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.102025 seconds.
+  path: Assets/ScriptableObjects/Explosions/HealExplosion.asset
+  artifactKey: Guid(714306baf0399344baa1db4c8243501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/HealExplosion.asset using Guid(714306baf0399344baa1db4c8243501d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fb900d16f0e71a9a15ce66db170d68') in 0.123689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.728650 seconds.
+  path: Assets/ScriptableObjects/Explosions/SimpleExplosion.asset
+  artifactKey: Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/SimpleExplosion.asset using Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78043d1a6d1f1644145b7fa3906fa032') in 0.012197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.067520 seconds.
+  path: Assets/ScriptableObjects/Explosions/New Explosion.asset
+  artifactKey: Guid(231ca9d99c842cf4290e99d25e04628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/New Explosion.asset using Guid(231ca9d99c842cf4290e99d25e04628a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ba7340ec799c6cc9d25080625f7e3f') in 0.003165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033830 seconds.
+  path: Assets/ScriptableObjects/Explosions/MegaExplosion.asset
+  artifactKey: Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/MegaExplosion.asset using Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e7aac5fa37402022dd6df82cdf3219') in 0.005777 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2097ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1797ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (1147ms)
+				ProcessInitializeOnLoadMethodAttributes (144ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2290.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 20.095900 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.063100 ms MarkObjects: 19.842500 ms  DeleteObjects: 0.027500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.120603 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3d0ec78b661c1014f49901064c2428') in 0.277041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.284921 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa73978d62f9bf7b47ec9389df870044') in 0.032120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.601223 seconds.
+  path: Assets/ScriptableObjects/Explosions/TimerExplosion.asset
+  artifactKey: Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Explosions/TimerExplosion.asset using Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8f46ed8a28e12a3bc9d56b0a91e2f3') in 0.005368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.174400 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18ff68aeb42f63dcee83e2055580865') in 0.018469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.249351 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edec39955165166f5962fb187c791ea2') in 0.036506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.516778 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb.prefab
+  artifactKey: Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb.prefab using Guid(7a5c0c8b075b01644868e5e75b7b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d986dd88c5c3e557c1bdf7a7da9614c') in 0.027197 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2633ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2320ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1870ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (1518ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2292.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 23.229100 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.141300 ms MarkObjects: 22.869400 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009684 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.345 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2346ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (2049ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1620ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (1337ms)
+				ProcessInitializeOnLoadMethodAttributes (202ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2294.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 20.655500 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.121000 ms MarkObjects: 20.325200 ms  DeleteObjects: 0.026200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.223 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2224ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1918ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (1236ms)
+				ProcessInitializeOnLoadMethodAttributes (185ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(92c24d8e4fa1462f83be7eefc87ddeb4) path("Assets/Scripts/BattleSystem/Explosions/Steps/DestroyObjectStep.cs") state(2)
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1725 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2296.
+Memory consumption went from 81.0 MB to 81.0 MB.
+Total: 19.663100 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.131600 ms MarkObjects: 19.318700 ms  DeleteObjects: 0.024400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.205 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2206ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1921ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (1196ms)
+				ProcessInitializeOnLoadMethodAttributes (169ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2299.
+Memory consumption went from 81.1 MB to 81.0 MB.
+Total: 19.764700 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.118300 ms MarkObjects: 19.444300 ms  DeleteObjects: 0.025000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009413 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.040 seconds
+- Completed reload, in  2.718 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3041ms)
-		BeginReloadAssembly (636ms)
+	ReloadAssembly (2719ms)
+		BeginReloadAssembly (200ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (12ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (2128ms)
-			LoadAssemblies (442ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2416ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1690ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1954ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (1361ms)
-				ProcessInitializeOnLoadMethodAttributes (245ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (1609ms)
+				ProcessInitializeOnLoadMethodAttributes (266ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2303.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 24.736200 ms (FindLiveObjects: 0.171600 ms CreateObjectMapping: 0.119700 ms MarkObjects: 24.419900 ms  DeleteObjects: 0.023600 ms)
+Unloading 1726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2301.
+Memory consumption went from 81.1 MB to 81.0 MB.
+Total: 22.229900 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.146600 ms MarkObjects: 21.861400 ms  DeleteObjects: 0.024100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1567,51 +1420,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 270.342536 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5341b162bc0a25e6563b5cfb550c4e') in 0.210856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.423784 seconds.
+  path: Assets/Prefabs/Bombs/TimerBomb 1.prefab
+  artifactKey: Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bombs/TimerBomb 1.prefab using Guid(d5cd86b249e63074f89ac5ba2736d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559ab6265846c7e1fa1ff4d111736f80') in 0.021085 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009347 seconds.
+Registered in 0.009059 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.456 seconds
+- Completed reload, in  2.574 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2458ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (2575ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2139ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2269ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (265ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (133ms)
-			SetupLoadedEditorAssemblies (1547ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1795ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (1250ms)
-				ProcessInitializeOnLoadMethodAttributes (221ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (1458ms)
+				ProcessInitializeOnLoadMethodAttributes (264ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2305.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 23.947900 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.072200 ms MarkObjects: 23.621400 ms  DeleteObjects: 0.026000 ms)
+Unloading 1726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2304.
+Memory consumption went from 81.1 MB to 81.0 MB.
+Total: 22.429000 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.169100 ms MarkObjects: 21.988800 ms  DeleteObjects: 0.024700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1624,308 +1489,38 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 296.029225 seconds.
-  path: Assets/Prefabs/Bombs/DoubleBomb.prefab
-  artifactKey: Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bombs/DoubleBomb.prefab using Guid(46aa57f06c4f51d418d965277ddf023d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7587b4ba18036cba5ce12be06a655e55') in 0.237437 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008570 seconds.
+Registered in 0.010951 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.977 seconds
+- Completed reload, in  2.266 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2980ms)
-		BeginReloadAssembly (220ms)
+	ReloadAssembly (2267ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (2651ms)
-			LoadAssemblies (141ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1961ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (2154ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (1862ms)
-				ProcessInitializeOnLoadMethodAttributes (217ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (4ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2307.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 22.392900 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.067200 ms MarkObjects: 22.107000 ms  DeleteObjects: 0.024600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 44.160157 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset
-  artifactKey: Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset using Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30ccff504e95bdf9b61964f0461845') in 0.134203 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.876 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2877ms)
-		BeginReloadAssembly (202ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (2571ms)
-			LoadAssemblies (136ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (2108ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (1789ms)
-				ProcessInitializeOnLoadMethodAttributes (248ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2309.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 22.893500 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.064600 ms MarkObjects: 22.625300 ms  DeleteObjects: 0.022400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 29.790844 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/DoubleExplosion.asset
-  artifactKey: Guid(a5e003543fc8f7349a7835c0d496f1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/DoubleExplosion.asset using Guid(a5e003543fc8f7349a7835c0d496f1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f16cfb8c614e5cfc7cc3125e4e863c') in 0.175576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset
-  artifactKey: Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/MegaExplosion.asset using Guid(786810e7a1afeba43920a3a597b9b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920ad4b6c1171dd225496556f54594c7') in 0.005677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/TimerExplosion.asset
-  artifactKey: Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/TimerExplosion.asset using Guid(30c09322e64d51d409c4708076864614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c74606d1ad1293fdddbeeb32a65677') in 0.007338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/SimpleExplosion.asset
-  artifactKey: Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/SimpleExplosion.asset using Guid(d986c1cceedb35f46a17856b5a67b333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a85fbbcd4a00bd3449fd83b7b835882') in 0.005386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.385009 seconds.
-  path: Assets/Prefabs/Explosions/Explosions/InfiniteExplosion.asset
-  artifactKey: Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Explosions/Explosions/InfiniteExplosion.asset using Guid(d115d95924537fc48b719d35a391b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf91b2376c3112e38af03cfc59af76b') in 0.007177 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008596 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.039 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3040ms)
-		BeginReloadAssembly (198ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (2734ms)
-			LoadAssemblies (135ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (2247ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (1906ms)
-				ProcessInitializeOnLoadMethodAttributes (254ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.7 KB). Loaded Objects now: 2311.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 23.944300 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.063900 ms MarkObjects: 23.670100 ms  DeleteObjects: 0.024700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011276 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.869 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2870ms)
-		BeginReloadAssembly (206ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (2556ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (255ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (2103ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (1759ms)
-				ProcessInitializeOnLoadMethodAttributes (266ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2313.
-Memory consumption went from 80.8 MB to 80.8 MB.
-Total: 26.131300 ms (FindLiveObjects: 0.222400 ms CreateObjectMapping: 0.070800 ms MarkObjects: 25.813500 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.211 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2212ms)
-		BeginReloadAssembly (214ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1892ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (1364ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (1141ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
+				ProcessInitializeOnLoadAttributes (1166ms)
+				ProcessInitializeOnLoadMethodAttributes (229ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -1933,12 +1528,12 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1722 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2315.
-Memory consumption went from 80.9 MB to 80.8 MB.
-Total: 19.107700 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.064100 ms MarkObjects: 18.844000 ms  DeleteObjects: 0.024000 ms)
+Unloading 1726 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (33.6 KB). Loaded Objects now: 2306.
+Memory consumption went from 81.1 MB to 81.0 MB.
+Total: 19.499300 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.117200 ms MarkObjects: 19.185300 ms  DeleteObjects: 0.021400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

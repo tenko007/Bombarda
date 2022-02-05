@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1700980000263741866}
-  - component: {fileID: -6157949910262084593}
+  - component: {fileID: -7590956011369550200}
   - component: {fileID: 8226779048668608457}
   - component: {fileID: 1700980000263741910}
   m_Layer: 0
-  m_Name: SimpleBomb
+  m_Name: HealBomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +35,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &-6157949910262084593
+--- !u!135 &-7590956011369550200
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b8bdbd5e534d698e75099e69247782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosion: {fileID: 11400000, guid: d986c1cceedb35f46a17856b5a67b333, type: 2}
+  _explosion: {fileID: 11400000, guid: 714306baf0399344baa1db4c8243501d, type: 2}
   destroyDelay: 5
 --- !u!1 &4853934566425099216
 GameObject:
@@ -140,7 +140,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bbda119cbb1ec67499822ecd3b9a1f39, type: 2}
+  - {fileID: 2100000, guid: 0f78d55e9a95d0a4f8c8b39c355ddc8e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

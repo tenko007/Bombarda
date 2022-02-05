@@ -45,6 +45,9 @@ MonoBehaviour:
     - Name: objectToSpawn
       Entry: 10
       Data: 0
+    - Name: scale
+      Entry: 4
+      Data: 1
     - Name: destroyAfterSeconds
       Entry: 4
       Data: 5

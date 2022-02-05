@@ -1,11 +1,12 @@
 using System;
 using BattleSystem.newExplosions;
 using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class Explosives : MonoBehaviour
+public class Explosives2 : SerializedMonoBehaviour
 {
-    [SerializeField] private Explosion _explosion;
+    [SerializeField] private IExplosion _explosion;
     [SerializeField] private float destroyDelay = 5f;
 
     private void Start()
