@@ -3,7 +3,7 @@ using BattleSystem.newExplosions;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class Explosives : MonoBehaviour
+public class Explosives : MonoBehaviour // TODO Remove
 {
     [SerializeField] private Explosion _explosion;
     [SerializeField] private float destroyDelay = 5f;

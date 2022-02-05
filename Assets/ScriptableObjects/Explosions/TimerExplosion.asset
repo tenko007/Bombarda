@@ -35,7 +35,7 @@ MonoBehaviour:
       Data: 1|Delay, Assembly-CSharp
     - Name: delaySeconds
       Entry: 4
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 8
       Data: 

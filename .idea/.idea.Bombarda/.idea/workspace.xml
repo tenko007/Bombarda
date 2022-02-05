@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2c2bf18-f26d-484d-a1d0-a48b403099b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Collide.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Collide.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/CollideWithTag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/CollideWithTag.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bombarda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/ExplosionMonoSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosion2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/ExplosionMonoSetup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/ExplosivesMonoSetup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives2.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/ExplosivesMonoSetup.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/IExplosion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bombs/TimerBomb 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Explosives.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Delay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleSystem/Explosions/Steps/Delay.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1643902203389" duration="10004000" />
       <workItem from="1643972960815" duration="2773000" />
       <workItem from="1643979689749" duration="28877000" />
-      <workItem from="1644055148396" duration="3684000" />
+      <workItem from="1644055148396" duration="6185000" />
     </task>
     <servers />
   </component>
