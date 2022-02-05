@@ -4,14 +4,13 @@ using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class Explosives2 : SerializedMonoBehaviour
+public class ExplosivesMonoSetup : SerializedMonoBehaviour
 {
     [SerializeField] private IExplosion _explosion;
     [SerializeField] private float destroyDelay = 5f;
 
     private void Start()
     {
-        _explosion.SetParentTransform(transform);
         Explode();
     }
 

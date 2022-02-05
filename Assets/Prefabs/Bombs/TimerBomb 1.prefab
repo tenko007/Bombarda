@@ -178,6 +178,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
+    - {fileID: 1700980000263741866}
     - {fileID: 1417873045281036127}
     - {fileID: 8300000, guid: 8dfcae34791b3a447b81d6653208f596, type: 3}
     SerializedBytesString: 
@@ -187,7 +188,10 @@ MonoBehaviour:
     SerializationNodes:
     - Name: _explosion
       Entry: 7
-      Data: 0|Explosion2, Assembly-CSharp
+      Data: 0|ExplosionMonoSetup, Assembly-CSharp
+    - Name: parentTransform
+      Entry: 10
+      Data: 0
     - Name: steps
       Entry: 7
       Data: 1|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
@@ -209,7 +213,7 @@ MonoBehaviour:
       Data: 3|DestroyObjectStep, Assembly-CSharp
     - Name: objectToDestroy
       Entry: 10
-      Data: 0
+      Data: 1
     - Name: destroyAfterSeconds
       Entry: 4
       Data: 0
@@ -221,10 +225,10 @@ MonoBehaviour:
       Data: 4|PlaySound, Assembly-CSharp
     - Name: sound
       Entry: 10
-      Data: 1
+      Data: 2
     - Name: volume
       Entry: 4
-      Data: 0.2
+      Data: 0.1
     - Name: 
       Entry: 8
       Data: 

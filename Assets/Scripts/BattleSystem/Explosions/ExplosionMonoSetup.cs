@@ -4,9 +4,9 @@ using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class Explosion2 : IExplosion
+public class ExplosionMonoSetup : IExplosion
 {
-    private Transform parentTransform;
+    [SerializeField] private Transform parentTransform;
     public List<IExplosionStep> steps;
     public async UniTask Explode()
     {
@@ -18,10 +18,4 @@ public class Explosion2 : IExplosion
             //Debug.Log($"ExplosionStep {step.GetType()} completed!");
         }
     }
-
-    public void SetParentTransform(Transform transform) =>
-        this.parentTransform = transform;
-
-    public async UniTask Execute() =>
-        await Explode();
 }
