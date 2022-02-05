@@ -9,6 +9,4 @@ public class HideMesh : ExplosionStep
         if (mesh != null)
             GameObject.Destroy(mesh);
     }
-
-    public Transform ParentTransform { get; set; }
 }

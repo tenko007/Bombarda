@@ -8736,6 +8736,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoubleBomb
       objectReference: {fileID: 0}
+    - target: {fileID: 9017311295673755539, guid: 46aa57f06c4f51d418d965277ddf023d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46aa57f06c4f51d418d965277ddf023d, type: 3}
 --- !u!1 &1057371519
