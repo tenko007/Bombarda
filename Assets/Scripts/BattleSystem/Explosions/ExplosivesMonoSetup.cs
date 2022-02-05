@@ -19,7 +19,6 @@ public class ExplosivesMonoSetup : SerializedMonoBehaviour
         await _explosion.Explode();
         await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));
         
-        try { Destroy(this.gameObject); }
-        catch (Exception e) { }
+        try { Destroy(this.gameObject); } catch { }
     }
 }

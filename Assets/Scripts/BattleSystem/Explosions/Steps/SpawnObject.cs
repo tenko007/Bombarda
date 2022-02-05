@@ -9,7 +9,8 @@ public class SpawnObject : ExplosionStep
 
     public override async UniTask Execute()
     {
-        GameObject newObject = GameObject.Instantiate(objectToSpawn, ParentTransform.position, Quaternion.identity);
+        GameObject newObject = GameObject.Instantiate(
+            objectToSpawn, ParentTransform.position, Quaternion.identity, ParentTransform);
         newObject.transform.localScale *= scale;
         GameObject.Destroy(newObject, destroyAfterSeconds);
     }

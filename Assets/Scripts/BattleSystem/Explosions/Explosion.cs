@@ -22,7 +22,4 @@ public class Explosion : SerializedScriptableObject, IExplosion
 
     public void SetParentTransform(Transform transform) =>
         this.parentTransform = transform;
-
-    public async UniTask Execute() =>
-        await Explode();
 }
