@@ -81,9 +81,9 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 1700980000263741866}
+    - {fileID: 8300000, guid: 32f565ba94f200f49adb407cce64e873, type: 3}
     - {fileID: 4441132820587732306}
     - {fileID: 1700980000263741867, guid: 2ebc28f97ccc44a47890f4d59cdc4a65, type: 3}
-    - {fileID: 8300000, guid: 32f565ba94f200f49adb407cce64e873, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -110,10 +110,22 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|DestroyObjectStep, Assembly-CSharp
-    - Name: objectToDestroy
+      Data: 3|PlaySound, Assembly-CSharp
+    - Name: sound
       Entry: 10
       Data: 1
+    - Name: volume
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|DestroyObjectStep, Assembly-CSharp
+    - Name: objectToDestroy
+      Entry: 10
+      Data: 2
     - Name: destroyAfterSeconds
       Entry: 4
       Data: 0
@@ -122,25 +134,10 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|SpawnObject, Assembly-CSharp
-    - Name: objectToSpawn
-      Entry: 10
-      Data: 2
-    - Name: scale
-      Entry: 4
-      Data: 1
-    - Name: destroyAfterSeconds
-      Entry: 4
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
       Data: 5|SpawnObject, Assembly-CSharp
     - Name: objectToSpawn
       Entry: 10
-      Data: 2
+      Data: 3
     - Name: scale
       Entry: 4
       Data: 1
@@ -155,7 +152,7 @@ MonoBehaviour:
       Data: 6|SpawnObject, Assembly-CSharp
     - Name: objectToSpawn
       Entry: 10
-      Data: 2
+      Data: 3
     - Name: scale
       Entry: 4
       Data: 1
@@ -170,7 +167,7 @@ MonoBehaviour:
       Data: 7|SpawnObject, Assembly-CSharp
     - Name: objectToSpawn
       Entry: 10
-      Data: 2
+      Data: 3
     - Name: scale
       Entry: 4
       Data: 1
@@ -182,13 +179,16 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 8|PlaySound, Assembly-CSharp
-    - Name: sound
+      Data: 8|SpawnObject, Assembly-CSharp
+    - Name: objectToSpawn
       Entry: 10
       Data: 3
-    - Name: volume
+    - Name: scale
       Entry: 4
-      Data: 0
+      Data: 1
+    - Name: destroyAfterSeconds
+      Entry: 4
+      Data: 5
     - Name: 
       Entry: 8
       Data: 

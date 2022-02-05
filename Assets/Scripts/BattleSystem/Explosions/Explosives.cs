@@ -18,6 +18,8 @@ public class Explosives : MonoBehaviour // TODO Remove
     {
         await _explosion.Explode();
         await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));
-        Destroy(this.gameObject);
+        
+        try { Destroy(this.gameObject); }
+        catch (Exception e) { }
     }
 }

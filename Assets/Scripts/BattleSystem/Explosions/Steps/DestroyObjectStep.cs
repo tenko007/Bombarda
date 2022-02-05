@@ -8,7 +8,7 @@ public class DestroyObjectStep : ExplosionStep
     [SerializeField] private float destroyAfterSeconds;
     public override async UniTask Execute()
     {
-        await UniTask.Delay(TimeSpan.FromSeconds(destroyAfterSeconds));
-        GameObject.Destroy(objectToDestroy);
+        //await UniTask.Delay(TimeSpan.FromSeconds(destroyAfterSeconds));
+        GameObject.Destroy(objectToDestroy, destroyAfterSeconds);
     }
 }
