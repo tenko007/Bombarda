@@ -25,8 +25,8 @@ MonoBehaviour:
     SerializationNodes:
     - Name: steps
       Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
+        Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 5
@@ -47,7 +47,7 @@ MonoBehaviour:
       Data: 0
     - Name: scale
       Entry: 4
-      Data: 3
+      Data: 4
     - Name: destroyAfterSeconds
       Entry: 4
       Data: 5
@@ -71,7 +71,7 @@ MonoBehaviour:
       Data: 1
     - Name: volume
       Entry: 4
-      Data: 0.1
+      Data: 0.2
     - Name: 
       Entry: 8
       Data: 
@@ -80,10 +80,10 @@ MonoBehaviour:
       Data: 5|SphereDamage, Assembly-CSharp
     - Name: amount
       Entry: 3
-      Data: 30
+      Data: 45
     - Name: radius
       Entry: 4
-      Data: 5
+      Data: 10
     - Name: 
       Entry: 8
       Data: 

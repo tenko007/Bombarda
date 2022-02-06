@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class PlaySound : ExplosionStep
+public class PlaySound : Step
 {
     [SerializeField] private AudioClip sound;
     [SerializeField] private float volume;

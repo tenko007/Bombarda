@@ -1,5 +1,4 @@
 using System;
-using BattleSystem.newExplosions;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -11,6 +10,7 @@ public class ExplosivesMonoSetup : SerializedMonoBehaviour
 
     private void Start()
     {
+        _explosion.SetParentTransform(this.transform);
         Explode();
     }
 

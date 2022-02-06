@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 5297628448910537440}
   - component: {fileID: -5406386431061770974}
   - component: {fileID: 5256790143460549120}
-  - component: {fileID: 5297628448910537441}
+  - component: {fileID: 3875366312395458893}
   m_Layer: 0
   m_Name: InfiniteBomb
   m_TagString: Untagged
@@ -162,7 +162,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5297628448910537441
+--- !u!114 &3875366312395458893
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,10 +171,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 5297628448910537443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51b8bdbd5e534d698e75099e69247782, type: 3}
+  m_Script: {fileID: 11500000, guid: f85f68a39c1f4c278069b1cb319f411a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosion: {fileID: 11400000, guid: d115d95924537fc48b719d35a391b0bd, type: 2}
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: d115d95924537fc48b719d35a391b0bd, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _explosion
+      Entry: 7
+      Data: 0|ExplosionMonoSetup, Assembly-CSharp
+    - Name: steps
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|SpawnExplosion, Assembly-CSharp
+    - Name: explosion
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
   destroyDelay: 5
 --- !u!1001 &9140963439820077717
 PrefabInstance:

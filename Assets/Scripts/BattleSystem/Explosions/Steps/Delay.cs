@@ -2,7 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class Delay : ExplosionStep
+public class Delay : Step
 {
     [SerializeField] private float delaySeconds;
     public override async UniTask Execute() =>

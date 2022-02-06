@@ -2,7 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class DestroyObjectStep : ExplosionStep
+public class DestroyObjectStep : Step
 {
     [SerializeField] private GameObject objectToDestroy;
     [SerializeField] private float destroyAfterSeconds;

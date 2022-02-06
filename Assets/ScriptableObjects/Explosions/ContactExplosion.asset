@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
-  m_Name: New Explosion
+  m_Name: ContactExplosion
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 133642, guid: 721ed883392764d42a3957861e7752c0, type: 3}
-    - {fileID: 8300000, guid: 8dfcae34791b3a447b81d6653208f596, type: 3}
+    - {fileID: 8300000, guid: 4e9bff56ee93c6f42b214141e44e763d, type: 3}
+    - {fileID: 181478, guid: d166c8ca466ba4a42a2c22afdee2d7e1, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -25,56 +25,71 @@ MonoBehaviour:
     SerializationNodes:
     - Name: steps
       Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
+        Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
-      Data: 4
+      Data: 6
     - Name: 
       Entry: 7
       Data: 1|Delay, Assembly-CSharp
     - Name: delaySeconds
       Entry: 4
-      Data: 2
+      Data: 0.1
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 2|SpawnObject, Assembly-CSharp
-    - Name: objectToSpawn
+      Data: 2|WaitCollision, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|DeleteBaseChilds, Assembly-CSharp
+    - Name: deleteDelay
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|PlaySound, Assembly-CSharp
+    - Name: sound
       Entry: 10
       Data: 0
+    - Name: volume
+      Entry: 4
+      Data: 0.1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|SphereDamage, Assembly-CSharp
+    - Name: amount
+      Entry: 3
+      Data: 10
+    - Name: radius
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|SpawnObject, Assembly-CSharp
+    - Name: objectToSpawn
+      Entry: 10
+      Data: 1
     - Name: scale
       Entry: 4
-      Data: 10
+      Data: 3
     - Name: destroyAfterSeconds
       Entry: 4
       Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 3|PlaySound, Assembly-CSharp
-    - Name: sound
-      Entry: 10
-      Data: 1
-    - Name: volume
-      Entry: 4
-      Data: 0.2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|SphereDamage, Assembly-CSharp
-    - Name: amount
-      Entry: 3
-      Data: 50
-    - Name: radius
-      Entry: 4
-      Data: 20
     - Name: 
       Entry: 8
       Data: 

@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 6688379213759574342, guid: 92f9ebfd5471f104993553b51d164860, type: 3}
-    - {fileID: 8300000, guid: 64fb9477894fa2e4a997518fbb1c2f15, type: 3}
+    - {fileID: 8300000, guid: 32f565ba94f200f49adb407cce64e873, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -25,8 +25,8 @@ MonoBehaviour:
     SerializationNodes:
     - Name: steps
       Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[IExplosionStep, Assembly-CSharp]],
-        mscorlib
+      Data: 0|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
+        Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
       Data: 5
@@ -68,7 +68,7 @@ MonoBehaviour:
       Data: 4|SphereHeal, Assembly-CSharp
     - Name: amount
       Entry: 3
-      Data: 35
+      Data: 25
     - Name: radius
       Entry: 4
       Data: 5
@@ -83,7 +83,7 @@ MonoBehaviour:
       Data: 1
     - Name: volume
       Entry: 4
-      Data: 0.1
+      Data: 0.2
     - Name: 
       Entry: 8
       Data: 

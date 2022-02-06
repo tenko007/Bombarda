@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class SpawnObject : ExplosionStep
+public class SpawnObject : Step
 {
     [SerializeField] private GameObject objectToSpawn;
     [SerializeField] private float scale = 1f;
@@ -9,8 +9,8 @@ public class SpawnObject : ExplosionStep
 
     public override async UniTask Execute()
     {
-        GameObject newObject = GameObject.Instantiate(
-            objectToSpawn, ParentTransform.position, Quaternion.identity, ParentTransform);
+        GameObject newObject = GameObject.Instantiate(objectToSpawn, ParentTransform);
+        newObject.transform.position = ParentTransform.position;
         newObject.transform.localScale *= scale;
         GameObject.Destroy(newObject, destroyAfterSeconds);
     }

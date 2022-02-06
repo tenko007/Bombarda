@@ -2,7 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class DestroyParentStep : ExplosionStep
+public class DestroyParentStep : Step
 {
     [SerializeField] private float destroyAfterSeconds;
     public override async UniTask Execute()

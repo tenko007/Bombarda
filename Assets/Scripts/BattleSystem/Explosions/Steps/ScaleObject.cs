@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class ScaleObject : ExplosionStep
+public class ScaleObject : Step
 {
     [SerializeField] private float scale;
     public async override UniTask Execute() =>

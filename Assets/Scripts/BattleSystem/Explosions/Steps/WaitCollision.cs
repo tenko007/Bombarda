@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Triggers;
 
-public class WaitCollision : ExplosionStep
+public class WaitCollision : Step
 {
     public override async UniTask Execute()
     {

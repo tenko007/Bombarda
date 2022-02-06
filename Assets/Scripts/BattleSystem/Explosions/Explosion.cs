@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using BattleSystem.newExplosions;
+using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -8,7 +8,7 @@ using UnityEngine;
 public class Explosion : SerializedScriptableObject, IExplosion
 {
     private Transform parentTransform;
-    public List<IExplosionStep> steps;
+    public List<IStep> steps;
     public async UniTask Explode()
     {
         if (steps.Count == 0) return;
@@ -16,7 +16,7 @@ public class Explosion : SerializedScriptableObject, IExplosion
         {
             step.SetParentTransform(parentTransform);
             await step.Execute();
-            //Debug.Log($"ExplosionStep {step.GetType()} completed!");
+            //Debug.Log($"Step {step.GetType()} completed!");
         }
     }
 
