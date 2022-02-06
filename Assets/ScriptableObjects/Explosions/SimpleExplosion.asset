@@ -68,7 +68,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|SphereDamage, Assembly-CSharp
+      Data: 4|SmartSphereDamage, Assembly-CSharp
     - Name: amount
       Entry: 3
       Data: 10

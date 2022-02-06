@@ -11,7 +11,7 @@ public abstract class DamageStep : Step
     public override async UniTask Execute() =>
         DamageAll();
     
-    protected abstract Collider[] FindAllCollidersNearby();
+    protected abstract List<Collider> FindAllCollidersNearby();
     public virtual List<T> FindAll<T>()
     {
         List<T> list = new List<T>();
