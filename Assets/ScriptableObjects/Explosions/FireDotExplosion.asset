@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
-  m_Name: BombsExplosion
+  m_Name: FireDotExplosion
   m_EditorClassIdentifier: 
   steps:
-  - {fileID: 11400000, guid: ba5da76b284fe3d46b15b6ded5ac6405, type: 2}
-  - {fileID: 11400000, guid: 52b5c2273b6a5c04d84d0f48f090da40, type: 2}
-  - {fileID: 11400000, guid: b18eed39b2cfc9942961c95b758239f4, type: 2}
-  - {fileID: 11400000, guid: 6d72b99a026851d4190817fd71669f6b, type: 2}
+  - {fileID: 11400000, guid: 66ccbb5baa6904e47ac593d666a65331, type: 2}
+  - {fileID: 11400000, guid: 398d0b9d2ec3f2749be7d757fe88109e, type: 2}
+  - {fileID: 11400000, guid: b6f883b3c46be494fb5096ce9c519334, type: 2}
+  - {fileID: 11400000, guid: b342b502ff2bc7042ba1649cd6ad412f, type: 2}
+  - {fileID: 11400000, guid: 9e2f4e3c593e2a241830710dc46d8d24, type: 2}

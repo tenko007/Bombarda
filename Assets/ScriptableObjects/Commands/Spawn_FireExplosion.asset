@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b311b96740694970b2b6aae6415a9855, type: 3}
   m_Name: Spawn_FireExplosion
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 193692, guid: 2aa1e7c21640d254492fa8035a6411e1, type: 3}
+  objectToSpawn: {fileID: 181478, guid: d166c8ca466ba4a42a2c22afdee2d7e1, type: 3}
   scale: 5
   destroyAfterSeconds: 5

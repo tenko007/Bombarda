@@ -1,11 +1,12 @@
 using System.Collections.Generic;
+using System.Linq;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 public abstract class DamageCommand : Command
 {
-    [SerializeField] private int amount;
-    public int Amount => amount;
+    [SerializeField] private int damageAmount;
+    public int DamageAmount => damageAmount;
     
     public override async UniTask Execute() =>
         DamageAll();
@@ -13,19 +14,22 @@ public abstract class DamageCommand : Command
     protected abstract List<Collider> FindAllCollidersNearby();
     public virtual List<T> FindAll<T>()
     {
-        List<T> list = new List<T>();
-        foreach (var contact in FindAllCollidersNearby())
-        {
-            var component = contact.gameObject.GetComponent<T>();
-            if (component != null)
-                list.Add(component);
-        }
-        return list;
+        return FindAllCollidersNearby()
+            .Select(contact => contact.gameObject.GetComponent<T>())
+            .Where(component => component != null).ToList();
+    }
+    
+    public virtual List<GameObject> FindAllGameObjects<T>()
+    {
+        return (from contact in FindAllCollidersNearby() 
+            let component = contact.gameObject.GetComponent<T>() 
+            where component != null 
+            select contact.gameObject).ToList();
     }
 
     public virtual void DamageAll()
     {
         foreach (var damageable in FindAll<IDamageable>())
-            damageable.Damage(Amount);
+            damageable.Damage(DamageAmount);
     }
 }

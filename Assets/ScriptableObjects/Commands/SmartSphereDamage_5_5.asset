@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3eca9387ba40b7b45bfc760bf10972, type: 3}
   m_Name: SmartSphereDamage_5_5
   m_EditorClassIdentifier: 
-  amount: 5
+  damageAmount: 5
   radius: 5

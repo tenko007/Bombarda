@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3eca9387ba40b7b45bfc760bf10972, type: 3}
-  m_Name: SmartSphereDamage_50_10
+  m_Script: {fileID: 11500000, guid: 43e16528094641e289357e5b0fee7bb6, type: 3}
+  m_Name: SphereHeal_45_10
   m_EditorClassIdentifier: 
-  damageAmount: 50
-  radius: 10
+  damageAmount: 25
+  radius: 5
