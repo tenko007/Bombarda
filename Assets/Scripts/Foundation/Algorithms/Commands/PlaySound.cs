@@ -1,6 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Commands/PlaySound", fileName = "PlaySound")]
 public class PlaySound : Command
 {
     [SerializeField] private AudioClip sound;

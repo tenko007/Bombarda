@@ -1,25 +1,18 @@
 using System.Collections.Generic;
-using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ScriptableObjects/Explosion")]
-public class Algorithm : SerializedScriptableObject, IAlgorithm
+[CreateAssetMenu(menuName = "ScriptableObjects/Algorithm")]
+public class Algorithm : Command, IAlgorithm
 {
-    private Transform parentTransform;
-    public List<ICommand> steps;
-    public async UniTask Explode()
+    public List<Command> steps;
+    public override async UniTask Execute()
     {
         if (steps.Count == 0) return;
         foreach (var step in steps)
         {
-            step.SetParentTransform(parentTransform);
+            step.SetParentTransform(ParentTransform);
             await step.Execute();
-            //Debug.Log($"Step {step.GetType()} completed!");
         }
     }
-
-    public void SetParentTransform(Transform transform) =>
-        this.parentTransform = transform;
 }

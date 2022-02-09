@@ -1,11 +1,10 @@
 using System;
 using Cysharp.Threading.Tasks;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class AlgorithmMonoExecutor : SerializedMonoBehaviour
+public class AlgorithmMonoExecutor : MonoBehaviour
 {
-    [SerializeField] private IAlgorithm _algorithm;
+    [SerializeField] private Algorithm _algorithm;
     [SerializeField] private float destroyDelay = 5f;
 
     private void Start()
@@ -16,9 +15,10 @@ public class AlgorithmMonoExecutor : SerializedMonoBehaviour
 
     private async UniTask Explode()
     {
-        await _algorithm.Explode();
-        await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));
+        _algorithm.SetParentTransform(this.transform);
+        await _algorithm.Execute();
         
+        await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));
         try { Destroy(this.gameObject); } catch { }
     }
 }

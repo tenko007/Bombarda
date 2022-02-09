@@ -3,6 +3,6 @@ using UnityEngine;
 
 public interface IAlgorithm
 {
-    UniTask Explode();
+    UniTask Execute();
     public void SetParentTransform(Transform transform);
 }

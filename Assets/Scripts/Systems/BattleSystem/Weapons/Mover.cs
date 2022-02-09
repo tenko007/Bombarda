@@ -1,7 +1,4 @@
-using System;
-using System.Data;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 namespace BattleSystem
 {

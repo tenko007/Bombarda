@@ -12,84 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
   m_Name: MegaExplosion
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 9079811726952302508, guid: bafd3abae883494488da1d818ef60f4e, type: 3}
-    - {fileID: 8300000, guid: 8dfcae34791b3a447b81d6653208f596, type: 3}
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: steps
-      Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
-        Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 1|DeleteBaseChilds, Assembly-CSharp
-    - Name: deleteDelay
-      Entry: 4
-      Data: 1.8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 2|SpawnObject, Assembly-CSharp
-    - Name: objectToSpawn
-      Entry: 10
-      Data: 0
-    - Name: scale
-      Entry: 4
-      Data: 4
-    - Name: destroyAfterSeconds
-      Entry: 4
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 3|Delay, Assembly-CSharp
-    - Name: delaySeconds
-      Entry: 4
-      Data: 1.8
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|PlaySound, Assembly-CSharp
-    - Name: sound
-      Entry: 10
-      Data: 1
-    - Name: volume
-      Entry: 4
-      Data: 0.2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|SmartSphereDamage, Assembly-CSharp
-    - Name: amount
-      Entry: 3
-      Data: 45
-    - Name: radius
-      Entry: 4
-      Data: 10
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+  steps:
+  - {fileID: 11400000, guid: 398d0b9d2ec3f2749be7d757fe88109e, type: 2}
+  - {fileID: 11400000, guid: d2cd2595b493c654ba55c15c69144c00, type: 2}
+  - {fileID: 11400000, guid: 74314979bbe5de24293e468ec320a086, type: 2}
+  - {fileID: 11400000, guid: c0643f53bfb4a5e4dab0d4c794ae4c8e, type: 2}
+  - {fileID: 11400000, guid: 82f3bb6e10bc9ed4599f90c260bfcea6, type: 2}

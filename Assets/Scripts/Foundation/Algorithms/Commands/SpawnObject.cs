@@ -1,6 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Commands/SpawnObject", fileName = "SpawnObject")]
 public class SpawnObject : Command
 {
     [SerializeField] private GameObject objectToSpawn;
@@ -9,8 +10,10 @@ public class SpawnObject : Command
 
     public override async UniTask Execute()
     {
-        GameObject newObject = GameObject.Instantiate(objectToSpawn, ParentTransform);
-        newObject.transform.position = ParentTransform.position;
+        GameObject newObject = GameObject.Instantiate(objectToSpawn,
+            ParentTransform.position, Quaternion.identity);
+        newObject.transform.SetParent(ParentTransform);
+        //newObject.transform.position = ParentTransform.position;
         newObject.transform.localScale *= scale;
         GameObject.Destroy(newObject, destroyAfterSeconds);
     }

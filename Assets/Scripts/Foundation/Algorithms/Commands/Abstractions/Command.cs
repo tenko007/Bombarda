@@ -2,7 +2,7 @@ using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public abstract class Command : ICommand
+public abstract class Command : ScriptableObject, ICommand
 {
     public abstract UniTask Execute();
     public Transform ParentTransform { get; private set; }

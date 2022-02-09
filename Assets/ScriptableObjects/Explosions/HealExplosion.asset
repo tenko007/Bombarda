@@ -12,84 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
   m_Name: HealExplosion
   m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 6688379213759574342, guid: 92f9ebfd5471f104993553b51d164860, type: 3}
-    - {fileID: 8300000, guid: 32f565ba94f200f49adb407cce64e873, type: 3}
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: steps
-      Entry: 7
-      Data: 0|System.Collections.Generic.List`1[[BattleSystem.Explosions.Steps.Abstractions.IStep,
-        Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 1|Delay, Assembly-CSharp
-    - Name: delaySeconds
-      Entry: 4
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 2|DeleteBaseChilds, Assembly-CSharp
-    - Name: deleteDelay
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 3|SpawnObject, Assembly-CSharp
-    - Name: objectToSpawn
-      Entry: 10
-      Data: 0
-    - Name: scale
-      Entry: 4
-      Data: 5
-    - Name: destroyAfterSeconds
-      Entry: 4
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|SphereHeal, Assembly-CSharp
-    - Name: amount
-      Entry: 3
-      Data: 25
-    - Name: radius
-      Entry: 4
-      Data: 5
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|PlaySound, Assembly-CSharp
-    - Name: sound
-      Entry: 10
-      Data: 1
-    - Name: volume
-      Entry: 4
-      Data: 0.2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+  steps:
+  - {fileID: 11400000, guid: a06c0636d74249b4fb85dd6b34e8e854, type: 2}
+  - {fileID: 11400000, guid: 52b5c2273b6a5c04d84d0f48f090da40, type: 2}
+  - {fileID: 11400000, guid: f1271072e1b6ba94495fd125aaf8b73f, type: 2}
+  - {fileID: 11400000, guid: 02e3bb53eec04a3499a789cf22da3e09, type: 2}
+  - {fileID: 11400000, guid: ae0406be1333b9c4fbd45a113f244e03, type: 2}

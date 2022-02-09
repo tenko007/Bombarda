@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Commands/SmartSphereDamage", fileName = "SmartSphereDamage")]
 public class SmartSphereDamage : SphereDamage
 {
     protected override List<Collider> FindAllCollidersNearby()

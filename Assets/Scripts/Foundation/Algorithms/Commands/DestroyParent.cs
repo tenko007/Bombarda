@@ -2,7 +2,8 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class DestroyParentCommand : Command
+[CreateAssetMenu(menuName = "Commands/DestroyParent", fileName = "DestroyParent")]
+public class DestroyParent : Command
 {
     [SerializeField] private float destroyAfterSeconds;
     public override async UniTask Execute()

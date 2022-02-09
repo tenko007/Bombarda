@@ -2,6 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Commands/DeleteBaseChilds", fileName = "DeleteBaseChilds")]
 public class DeleteBaseChilds : Command
 {
     private Transform[] _transforms;
