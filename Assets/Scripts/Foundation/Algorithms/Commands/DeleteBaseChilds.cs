@@ -2,7 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class DeleteBaseChilds : Step
+public class DeleteBaseChilds : Command
 {
     private Transform[] _transforms;
     [SerializeField] float deleteDelay = 0f;

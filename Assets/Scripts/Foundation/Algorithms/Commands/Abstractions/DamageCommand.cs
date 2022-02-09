@@ -3,7 +3,7 @@ using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public abstract class DamageStep : Step
+public abstract class DamageCommand : Command
 {
     [SerializeField] private int amount;
     public int Amount => amount;

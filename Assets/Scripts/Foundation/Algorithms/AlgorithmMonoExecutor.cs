@@ -3,20 +3,20 @@ using Cysharp.Threading.Tasks;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class ExplosivesMonoSetup : SerializedMonoBehaviour
+public class AlgorithmMonoExecutor : SerializedMonoBehaviour
 {
-    [SerializeField] private IExplosion _explosion;
+    [SerializeField] private IAlgorithm _algorithm;
     [SerializeField] private float destroyDelay = 5f;
 
     private void Start()
     {
-        _explosion.SetParentTransform(this.transform);
+        _algorithm.SetParentTransform(this.transform);
         Explode();
     }
 
     private async UniTask Explode()
     {
-        await _explosion.Explode();
+        await _algorithm.Explode();
         await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));
         
         try { Destroy(this.gameObject); } catch { }

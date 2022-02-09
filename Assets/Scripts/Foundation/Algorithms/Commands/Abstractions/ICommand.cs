@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BattleSystem.Explosions.Steps.Abstractions
 {
-    public interface IStep
+    public interface ICommand
     {
         UniTask Execute();
         public Transform ParentTransform { get; }

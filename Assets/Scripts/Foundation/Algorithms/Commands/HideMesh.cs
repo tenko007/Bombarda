@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class HideMesh : Step
+public class HideMesh : Command
 {
     public override async UniTask Execute()
     {

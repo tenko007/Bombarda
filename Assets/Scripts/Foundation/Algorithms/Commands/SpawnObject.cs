@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-public class SpawnObject : Step
+public class SpawnObject : Command
 {
     [SerializeField] private GameObject objectToSpawn;
     [SerializeField] private float scale = 1f;

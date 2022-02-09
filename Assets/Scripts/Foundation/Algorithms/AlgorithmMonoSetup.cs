@@ -1,14 +1,13 @@
 using System.Collections.Generic;
 using BattleSystem.Explosions.Steps.Abstractions;
 using Cysharp.Threading.Tasks;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "ScriptableObjects/Explosion")]
-public class Explosion : SerializedScriptableObject, IExplosion
+public class AlgorithmMonoSetup : IAlgorithm
 {
+    //[SerializeField]
     private Transform parentTransform;
-    public List<IStep> steps;
+    public List<ICommand> steps;
     public async UniTask Explode()
     {
         if (steps.Count == 0) return;
@@ -20,6 +19,6 @@ public class Explosion : SerializedScriptableObject, IExplosion
         }
     }
 
-    public void SetParentTransform(Transform transform) =>
+    public void SetParentTransform(Transform transform) => 
         this.parentTransform = transform;
 }
