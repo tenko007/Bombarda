@@ -14,12 +14,9 @@ public class DotEffect : MonoEffect
     private async void Start()
     {
         thisHealth = GetComponent<Health>();
-        if (thisHealth != null)
-        {
-            startTime = Time.time;
-            EffectGameObject = Instantiate(_data.VisualEffect, this.transform);
-            await DotTask();
-        }
+        startTime = Time.time;
+        EffectGameObject = Instantiate(_data.VisualEffect, this.transform);
+        await DotTask();
 
         Destroy(this);
     }
@@ -31,8 +28,9 @@ public class DotEffect : MonoEffect
     {
         do
         {
-            thisHealth.Damage(_data.OneTickDamage);
+            if (thisHealth != null) thisHealth.Damage(_data.OneTickDamage);
             await UniTask.Delay(TimeSpan.FromSeconds(_data.Delay));
-        } while (Time.time < startTime + _data.Seconds);
+        } 
+        while (Time.time < startTime + _data.Seconds);
     }
 }

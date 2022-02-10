@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e16528094641e289357e5b0fee7bb6, type: 3}
   m_Name: SphereHeal_45_10
   m_EditorClassIdentifier: 
-  damageAmount: 25
-  radius: 5
+  damageAmount: 45
+  radius: 10

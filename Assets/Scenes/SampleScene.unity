@@ -2309,18 +2309,18 @@ PrefabInstance:
     - target: {fileID: 5918356452876474041, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
       propertyPath: bomb
       value: 
-      objectReference: {fileID: 1700980000263741867, guid: ed2007ae7baabf8488fe4962c5442f81,
+      objectReference: {fileID: 1700980000263741867, guid: ca7c22d1c94fba34b93816f33b528fca,
         type: 3}
     - target: {fileID: 9191811532260190699, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
       propertyPath: cooldown
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
@@ -5890,12 +5890,12 @@ PrefabInstance:
     - target: {fileID: 5918356452876474041, guid: 014be0ff2295aeb45be29e7e5c405ad5,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 014be0ff2295aeb45be29e7e5c405ad5,
         type: 3}
       propertyPath: cooldown
-      value: 4
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 014be0ff2295aeb45be29e7e5c405ad5,
         type: 3}
@@ -13721,12 +13721,12 @@ PrefabInstance:
     - target: {fileID: 5918356452876474041, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
       propertyPath: cooldown
-      value: 5.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 7724f422e70f1ca438cbe3b7057a8a11,
         type: 3}
@@ -13919,7 +13919,7 @@ PrefabInstance:
     - target: {fileID: 9191811532260190699, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}
       propertyPath: cooldown
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}
@@ -15975,7 +15975,7 @@ PrefabInstance:
     - target: {fileID: 5918356452876474041, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}
@@ -15986,7 +15986,7 @@ PrefabInstance:
     - target: {fileID: 9191811532260190699, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}
       propertyPath: cooldown
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9191811532260190699, guid: 38e27035f9e6b08458b4b57cd14b2bf9,
         type: 3}

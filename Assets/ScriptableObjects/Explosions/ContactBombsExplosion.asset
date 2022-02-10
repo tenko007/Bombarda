@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cbb506e2950458c9593032a7fbb2b17, type: 3}
-  m_Name: ContactExplosion
+  m_Name: ContactBombsExplosion
   m_EditorClassIdentifier: 
   steps:
-  - {fileID: 11400000, guid: 0498e60364c972548acc6694b3ce5089, type: 2}
-  - {fileID: 11400000, guid: ddde9e5892eeda3479bf862eaa3ef16a, type: 2}
+  - {fileID: 11400000, guid: ba5da76b284fe3d46b15b6ded5ac6405, type: 2}
+  - {fileID: 11400000, guid: 52b5c2273b6a5c04d84d0f48f090da40, type: 2}
+  - {fileID: 11400000, guid: b18eed39b2cfc9942961c95b758239f4, type: 2}
+  - {fileID: 11400000, guid: 6b14b947ebe714b4ca4ba8c6a103b4c9, type: 2}
