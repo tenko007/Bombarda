@@ -33,4 +33,6 @@ public class DotEffect : MonoEffect
         } 
         while (Time.time < startTime + _data.Seconds);
     }
+    
+    
 }

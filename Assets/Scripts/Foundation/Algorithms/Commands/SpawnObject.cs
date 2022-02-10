@@ -10,10 +10,7 @@ public class SpawnObject : Command
 
     public override async UniTask Execute()
     {
-        GameObject newObject = GameObject.Instantiate(objectToSpawn,
-            ParentTransform.position, Quaternion.identity);
-        newObject.transform.SetParent(ParentTransform);
-        //newObject.transform.position = ParentTransform.position;
+        GameObject newObject = GameObject.Instantiate(objectToSpawn, TargetGameObject.transform);
         newObject.transform.localScale *= scale;
         GameObject.Destroy(newObject, destroyAfterSeconds);
     }

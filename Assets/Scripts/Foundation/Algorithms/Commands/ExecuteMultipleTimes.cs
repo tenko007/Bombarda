@@ -11,7 +11,7 @@ public class ExecuteMultipleTimes : Command
 
     public override async UniTask Execute()
     {
-        _command.SetParentTransform(ParentTransform);
+        _command.SetTargetGameObject(TargetGameObject);
         for (int i = 0; i < times; i++)
         {
             await UniTask.Delay(TimeSpan.FromSeconds(delay));

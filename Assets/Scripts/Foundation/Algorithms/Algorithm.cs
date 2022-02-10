@@ -3,7 +3,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/Algorithm")]
-public class Algorithm : Command, IAlgorithm
+public class Algorithm : Command
 {
     public List<Command> steps;
     public override async UniTask Execute()
@@ -11,7 +11,7 @@ public class Algorithm : Command, IAlgorithm
         if (steps.Count == 0) return;
         foreach (var step in steps)
         {
-            step.SetParentTransform(ParentTransform);
+            step.SetTargetGameObject(TargetGameObject);
             await step.Execute();
         }
     }

@@ -9,6 +9,6 @@ public class DestroyParent : Command
     public override async UniTask Execute()
     {
         await UniTask.Delay(TimeSpan.FromSeconds(destroyAfterSeconds));
-        GameObject.Destroy(ParentTransform.gameObject);
+        GameObject.Destroy(TargetGameObject);
     }
 }

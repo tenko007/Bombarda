@@ -17,7 +17,7 @@ public class SmartSphereDamage : SphereDamage
     
     public bool isVisible(Collider collider)
     {
-        var position = ParentTransform.position;
+        var position = TargetGameObject.transform.position;
         var colliderPosition = collider.transform.position;
         
         Ray ray = new Ray(position, (colliderPosition - position));

@@ -6,7 +6,7 @@ public class HideMesh : Command
 {
     public override async UniTask Execute()
     {
-        MeshRenderer mesh = ParentTransform.gameObject.GetComponent<MeshRenderer>();
+        MeshRenderer mesh = TargetGameObject.GetComponent<MeshRenderer>();
         if (mesh != null)
             GameObject.Destroy(mesh);
     }

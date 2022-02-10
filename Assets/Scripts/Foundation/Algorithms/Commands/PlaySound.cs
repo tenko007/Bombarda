@@ -8,9 +8,9 @@ public class PlaySound : Command
     [SerializeField] private float volume;
     public override async UniTask Execute()
     {
-        AudioSource source = ParentTransform.GetComponent<AudioSource>();
+        AudioSource source = TargetGameObject.GetComponent<AudioSource>();
         if (source == null)
-            source = ParentTransform.gameObject.AddComponent<AudioSource>();
+            source = TargetGameObject.AddComponent<AudioSource>();
         source.PlayOneShot(sound, volume); // TODO Adjust the volume by settings OR play with AudioManager
     }
 }

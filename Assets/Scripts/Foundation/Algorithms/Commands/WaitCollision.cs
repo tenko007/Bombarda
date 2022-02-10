@@ -7,7 +7,7 @@ public class WaitCollision : Command
 {
     public override async UniTask Execute()
     {
-        var collisionTrigger = ParentTransform.GetAsyncCollisionEnterTrigger();
+        var collisionTrigger = TargetGameObject.transform.GetAsyncCollisionEnterTrigger();
         var collisions = collisionTrigger.OnCollisionEnterAsync();
         await collisions;
     }

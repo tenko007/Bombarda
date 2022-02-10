@@ -7,15 +7,10 @@ public class AlgorithmMonoExecutor : MonoBehaviour
     [SerializeField] private Algorithm _algorithm;
     [SerializeField] private float destroyDelay = 5f;
 
-    private void Start()
+    private void Start() => Execute();
+    private async UniTask Execute()
     {
-        _algorithm.SetParentTransform(this.transform);
-        Explode();
-    }
-
-    private async UniTask Explode()
-    {
-        _algorithm.SetParentTransform(this.transform);
+        _algorithm.SetTargetGameObject(this.gameObject);
         await _algorithm.Execute();
         
         await UniTask.Delay(TimeSpan.FromSeconds(destroyDelay));

@@ -6,5 +6,5 @@ public class ScaleObject : Command
 {
     [SerializeField] private float scale = 1f;
     public async override UniTask Execute() =>
-        ParentTransform.localScale *= scale;
+        TargetGameObject.transform.localScale *= scale;
 }

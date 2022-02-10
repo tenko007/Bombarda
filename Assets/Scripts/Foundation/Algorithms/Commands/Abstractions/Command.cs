@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Command : ScriptableObject, ICommand
 {
     public abstract UniTask Execute();
-    public Transform ParentTransform { get; private set; }
-    public void SetParentTransform(Transform transform)
-        => ParentTransform = transform;
+    public GameObject TargetGameObject { get; private set; }
+    public void SetTargetGameObject(GameObject gameObject)
+        => TargetGameObject = gameObject;
 }
