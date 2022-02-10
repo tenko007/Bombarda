@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Commands/SphereHeal", fileName = "SphereHeal")]
-public class SphereHeal : SphereDamage
+public class SphereHeal : SmartSphereDamage
 {
     public override void DamageAll()
     {
