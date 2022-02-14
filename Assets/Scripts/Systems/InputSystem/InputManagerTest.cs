@@ -8,16 +8,16 @@ public class InputManagerTest : MonoBehaviour
     private void Start()
     {
         _inputSystem = Services.GetService<InputSystem>();
-        _inputSystem.ActionKeys[InputAction.Fire].SubscribeKeyStart(FireStart);
-        _inputSystem.ActionKeys[InputAction.Fire].SubscribeKeyEnd(FireEnd);
-        _inputSystem.ActionKeys[InputAction.Fire].SubscribeKeyHold(FireHold);
+        _inputSystem.ActionKeys[InputActionType.Fire].SubscribeKeyStart(FireStart);
+        _inputSystem.ActionKeys[InputActionType.Fire].SubscribeKeyEnd(FireEnd);
+        _inputSystem.ActionKeys[InputActionType.Fire].SubscribeKeyHold(FireHold);
     }
     
     private void OnDestroy()
     {
-        _inputSystem.ActionKeys[InputAction.Fire].UnsubscribeKeyStart(FireStart);
-        _inputSystem.ActionKeys[InputAction.Fire].UnsubscribeKeyEnd(FireEnd);
-        _inputSystem.ActionKeys[InputAction.Fire].UnsubscribeKeyHold(FireHold);
+        _inputSystem.ActionKeys[InputActionType.Fire].UnsubscribeKeyStart(FireStart);
+        _inputSystem.ActionKeys[InputActionType.Fire].UnsubscribeKeyEnd(FireEnd);
+        _inputSystem.ActionKeys[InputActionType.Fire].UnsubscribeKeyHold(FireHold);
     }
 
     private void FireStart() => Debug.Log("Fire start");

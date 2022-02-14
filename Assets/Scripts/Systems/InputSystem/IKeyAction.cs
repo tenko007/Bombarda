@@ -2,7 +2,7 @@
 using UnityEngine;
 using Utils.UpdateSystem;
 
-public interface IInputActionKey : IUpdatable
+public interface IKeyAction : IUpdatable
 {
     public KeyCode KeyCode { get; }
     public Action OnKeyStart { get; }

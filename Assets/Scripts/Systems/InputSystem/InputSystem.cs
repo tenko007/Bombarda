@@ -6,9 +6,10 @@ using Utils.UpdateSystem;
 
 public class InputSystem : IInputSystem
 {
-    private Dictionary<InputAction, IInputActionKey> _actionKeys;
-    public Dictionary<InputAction, IInputActionKey> ActionKeys => _actionKeys;
+    private Dictionary<InputActionType, KeyAction> _actionKeys;
+    public Dictionary<InputActionType, KeyAction> ActionKeys => _actionKeys;
     private InputKeysSetup _inputKeysSetup;
+    private IUpdateSystem updateSystem;
 
     public InputSystem(InputKeysSetup inputKeysSetup)
     {
@@ -17,39 +18,42 @@ public class InputSystem : IInputSystem
     }
     private void Start()
     {
-        _actionKeys = new Dictionary<InputAction, IInputActionKey>();
-        UploadSetup();
-        IUpdateSystem updateManager = Services.GetService<IUpdateSystem>();
-        foreach (var inputActionKey in _actionKeys)
-            updateManager.Add(inputActionKey.Value);
-    }
-
-    private void UploadSetup()
-    {
-        foreach (var keyCode in _inputKeysSetup.KeyCodes)
-            _actionKeys.Add(keyCode.Action, new InputActionKey(keyCode.KeyCode));
-    }
-
-    public void ChangeKey(InputAction action, KeyCode newKey)
-    {
-        var keyBind = _inputKeysSetup.KeyCodes.FirstOrDefault(item => item.Action == action);
-        if (keyBind != null)
-            keyBind.KeyCode = newKey;
-        else
-            _inputKeysSetup.KeyCodes.Add(new KeyBind(action, newKey));
+        _actionKeys = new Dictionary<InputActionType, KeyAction>();
+        updateSystem = Services.GetService<IUpdateSystem>();
         
-        if (_actionKeys.ContainsKey(action))
-            _actionKeys[action] = new InputActionKey(newKey);
-        else
-            _actionKeys.Add(action, new InputActionKey(newKey));
+        UploadSetup();
     }
     
-    public void RemoveKey(InputAction action)
+    private void UploadSetup()
     {
-        var keyBind = _inputKeysSetup.KeyCodes.FirstOrDefault(item => item.Action == action);
-        _inputKeysSetup.KeyCodes.Remove(keyBind);
+        foreach (var keyCode in _inputKeysSetup.KeyCodes.ToList())
+            AddKey(keyCode.actionType, keyCode.KeyCode);
+    }
+    
+    public void AddKey(InputActionType actionType, KeyCode newKey)
+    {
+        if (!_inputKeysSetup.ChangeBind(actionType, newKey)) return;
+
+        var newKeyAction = new KeyAction(newKey);
+        _actionKeys.Add(actionType, newKeyAction);
+        updateSystem.Add(newKeyAction);
+    }
+    
+    public void ChangeKey(InputActionType actionType, KeyCode newKey)
+    {
+        if (!_inputKeysSetup.ChangeBind(actionType, newKey)) return;
         
-        if (_actionKeys.ContainsKey(action))
-            _actionKeys.Remove(action);
+        if (_actionKeys.ContainsKey(actionType))
+            _actionKeys[actionType].KeyCode = newKey;
+        else
+            AddKey(actionType, newKey);
+    }
+    
+    public void RemoveKey(InputActionType actionType)
+    {
+        if (!_actionKeys.ContainsKey(actionType)) return;
+            
+        updateSystem.Remove(_actionKeys[actionType]);
+        _actionKeys.Remove(actionType);
     }
 }

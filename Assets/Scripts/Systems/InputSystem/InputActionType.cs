@@ -1,4 +1,4 @@
-﻿public enum InputAction
+﻿public enum InputActionType
 {
     Fire,
     MoveForward,
